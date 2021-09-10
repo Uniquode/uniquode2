@@ -90,14 +90,18 @@ Pillow = "*"
 
 [[package]]
 name = "django-npm"
-version = "1.0.0"
-description = "A django staticfiles finder that uses npm"
+version = "1.1.1"
+description = 'A django staticfiles finder that supporting npm'
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = "^3.9"
+develop = false
 
-[package.extras]
-test = ["pytest"]
+[package.source]
+type = "git"
+url = "https://github.com/Uniquode/django-npm.git"
+reference = "master"
+resolved_reference = "11dacd4ff7f02ea692ba90530e71c409ca1cb34c"
 
 [[package]]
 name = "django-redis"
@@ -204,6 +208,17 @@ description = "A library to make Django's template tags sweet."
 category = "main"
 optional = false
 python-versions = "*"
+
+[[package]]
+name = "djangorestframework"
+version = "3.12.4"
+description = "Web APIs for Django, made easy."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+django = ">=2.2"
 
 [[package]]
 name = "iniconfig"
@@ -441,7 +456,7 @@ resolved_reference = "212da16de03ff8fdfbae32e0f55b771135a10dda"
 
 [[package]]
 name = "sqlparse"
-version = "0.4.1"
+version = "0.4.2"
 description = "A non-validating SQL parser."
 category = "main"
 optional = false
@@ -458,7 +473,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "9362fd0406657a6b2b8ea837393b551f9bf91d7a9f05da7376271fb910f55651"
+content-hash = "261a2288d346379d2ab891240fdb6cc999df989b16fff0a0612be56b19db1401"
 
 [metadata.files]
 asgiref = [
@@ -486,9 +501,7 @@ django-markdownx = [
     {file = "django-markdownx-3.0.1.tar.gz", hash = "sha256:e18e395cad0ade96afbb250a81cad15618e417ac3c0d9c37d964be3d8fd57bcf"},
     {file = "django_markdownx-3.0.1-py2.py3-none-any.whl", hash = "sha256:f4d8998618c0548bf5349713d805e7440684d70116de0f10413932286c4e375f"},
 ]
-django-npm = [
-    {file = "django-npm-1.0.0.tar.gz", hash = "sha256:2e6bba65e728fa18b9db3c8dc0d4490b70cb7f43bacf60eb3654d7dcb6424272"},
-]
+django-npm = []
 django-redis = [
     {file = "django-redis-5.0.0.tar.gz", hash = "sha256:048f665bbe27f8ff2edebae6aa9c534ab137f1e8fa7234147ef470df3f3aa9b8"},
     {file = "django_redis-5.0.0-py3-none-any.whl", hash = "sha256:97739ca9de3f964c51412d1d7d8aecdfd86737bb197fce6e1ff12620c63c97ee"},
@@ -528,6 +541,10 @@ django-taggit-templatetags = [
 django-templatetag-sugar = [
     {file = "django-templatetag-sugar-1.0.tar.gz", hash = "sha256:e9f630549f6c174cf328b385190e18bfe308f74dc7eca13458163d316ed29a5e"},
     {file = "django_templatetag_sugar-1.0-py2.py3-none-any.whl", hash = "sha256:90beafe5bc84686c328dcf685ce9f59f814104efd9a1fb5fb826e3ee3b7c2626"},
+]
+djangorestframework = [
+    {file = "djangorestframework-3.12.4-py3-none-any.whl", hash = "sha256:6d1d59f623a5ad0509fe0d6bfe93cbdfe17b8116ebc8eda86d45f6e16e819aaf"},
+    {file = "djangorestframework-3.12.4.tar.gz", hash = "sha256:f747949a8ddac876e879190df194b925c177cdeb725a099db1460872f7c0a7f2"},
 ]
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
@@ -692,8 +709,8 @@ six = [
 ]
 smart-env = []
 sqlparse = [
-    {file = "sqlparse-0.4.1-py3-none-any.whl", hash = "sha256:017cde379adbd6a1f15a61873f43e8274179378e95ef3fede90b5aa64d304ed0"},
-    {file = "sqlparse-0.4.1.tar.gz", hash = "sha256:0f91fd2e829c44362cbcfab3e9ae12e22badaa8a29ad5ff599f9ec109f0454e8"},
+    {file = "sqlparse-0.4.2-py3-none-any.whl", hash = "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"},
+    {file = "sqlparse-0.4.2.tar.gz", hash = "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
