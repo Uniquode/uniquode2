@@ -1,0 +1,9 @@
+app_label,group,permissions
+core,Administrators,add|change|delete|view
+core,Staff,add|change|view
+core,Moderators,view
+sitetree,Administrators,add|change|delete|view
+taggit,Administrators,add|change|delete|view
+taggit,Staff,add|delete|view
+taggit,Moderators,add|delete|view
+taggit,Editors,add|delete|view

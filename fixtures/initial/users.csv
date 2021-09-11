@@ -1,0 +1,4 @@
+username,password,first_name,last_name,email,is_superuser,is_staff,is_active,date_joined,last_login
+davidn,"pbkdf2_sha256$260000$oWhM5gWXNxN3je8W23ohAR$AU4X8CM0s228qtz27l2CS5/3114i+DlKiwvTjjTyl8Q=",David,Nugent,davidn@uniquode.io,t,t,t,,
+teststaff,"pbkdf2_sha256$260000$UzZv2vMooaO8AeKVqILAn1$dMp04qEe3/2G1BQyZdIgjSzXbPfzRIvGjdNTELLAVsI=",Test,Staff,davidn+staff@uniquode.io,f,t,t,,
+testuser,"pbkdf2_sha256$260000$MbtRmG4ZlM94bHwqqqvtIU$mdR1qjgFbcpgKe2pS5m5SD4xUN9G35700yeLKqJT16c=",Test,User,davidn+test@uniquode.io,f,f,t,,

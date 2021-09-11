@@ -40,8 +40,8 @@ testpaths = [
 python_paths = [
     "app",
 ]
-env_files = [
-    ".env"
+env = [
+    "DJANGO_ADMIN_ENABLED=true"
 ]
 DJANGO_SETTINGS_MODULE = "conf.settings"
 

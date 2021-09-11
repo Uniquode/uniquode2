@@ -79,3 +79,4 @@ dmypy.json
 # Local
 # static collected
 /static/
+node_modules/

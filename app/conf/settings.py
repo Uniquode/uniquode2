@@ -1,50 +1,74 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for conf project.
 """
+from django.contrib import messages
 from django_env import Env
 from pathlib import Path
 
 SETTINGS_DIR = Path(__file__).resolve().parent
-DJANGO_BASE = SETTINGS_DIR.parent
-PROJECT_BASE = DJANGO_BASE.parent
+DJANGO_ROOT = SETTINGS_DIR.parent
+PROJECT_ROOT = DJANGO_ROOT.parent
 
 env = Env()
 if env.bool('DJANGO_READ_DOTENV_FILE', True):
-    env.read_env(search_path=PROJECT_BASE, parents=True)
+    env.read_env(search_path=PROJECT_ROOT, parents=True)
 
 SECRET_KEY = env.get('DJANGO_SECRET_KEY')
 DEBUG = env.get('DJANGO_DEBUG', default=False)
 ALLOWED_HOSTS = env.get('DJANGO_ALLOWED_HOSTS', default=[])
 
+ADMIN_ENABLED = env.bool('DJANGO_ADMIN_ENABLED', default=True)
+
 # Application definition
+
 DJANGO_APPS = [
-    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-THIRDPARTY_APPS = []
+
+if ADMIN_ENABLED:
+    # we WANT an error if this setting is used by unguarded code
+    ADMIN_URL = 'admin/'
+    DJANGO_APPS.insert(0, 'django.contrib.admin')
+
+THIRDPARTY_APPS = [
+    'sitetree',
+    'markdownx',
+    'simple_history',
+    'taggit',
+    'rest_framework',
+]
 CUSTOM_APPS = [
-    'core'
+    'core',
+    #'modules.pages',
+    #'modules.articles',
 ]
 INSTALLED_APPS = DJANGO_APPS + CUSTOM_APPS + THIRDPARTY_APPS
 
 DJANGO_MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-THIRDPARTY_MIDDLEWARE = []
+THIRDPARTY_MIDDLEWARE = [
+    'simple_history.middleware.HistoryRequestMiddleware',
+]
 CUSTOM_MIDDLEWARE = []
-MIDDLEWARE = DJANGO_MIDDLEWARE + CUSTOM_MIDDLEWARE + THIRDPARTY_MIDDLEWARE
+EXTRA_MIDDLEWARE = [
+    'django.middleware.cache.FetchFromCacheMiddleware',  # must be last
+]
+MIDDLEWARE = DJANGO_MIDDLEWARE + CUSTOM_MIDDLEWARE + THIRDPARTY_MIDDLEWARE + EXTRA_MIDDLEWARE
 
-ROOT_URLCONF = 'core.urls'
+ROOT_URLCONF = 'conf.urls'
 
 TEMPLATE_LOADERS = [
     'django.template.loaders.filesystem.Loader',
@@ -59,9 +83,7 @@ if env.bool('DJANGO_TEMPLATE_CACHE', False):
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            DJANGO_BASE / 'templates'
-        ],
+        'DIRS': [],
         'OPTIONS': {
             'loaders': TEMPLATE_LOADERS,
             'context_processors': [
@@ -75,18 +97,35 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'conf.wsgi.application'
+ASGI_APPLICATION = 'conf.asgi:application'
 
 DATABASE_MAP = {
-    'default': ('DJANGO_DATABASE_URL',),
-    'readonly': ('DJANGO_DATABASE_RO_URL'),
-    'postgres': ('DJANGO_POSTGRES_URL',),
+    'default': ('DJANGO_DATABASE_URL', {}),
+    'readonly': ('DJANGO_DATABASE_RO_URL', {'readonly': True}),
+    'postgres': ('DJANGO_POSTGRES_URL', {}),
 }
-
-DATABASES = {name: env.database_url(var) for name, var in DATABASE_MAP.items() if env.is_set(var)}
+DATABASES = {
+    name: env.database_url(var, **opts)
+    for name, (var, opts) in DATABASE_MAP.items() if env.is_set(var)
+}
+DATABASE_ROUTERS = ['core.components.db_router.DBRouter']
 
 CACHES = {
-    'default': env.cache_url('DJANGO_CACHE_URL')
+    'default': env.cache_url('DJANGO_CACHE_URL'),
+    'sessions': env.cache_url('DJANGO_SESSIONS_CACHE_URL', default=env.get('DJANGO_CACHE_URL'))
 }
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+SESSION_CACHE_ALIAS = 'sessions'
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+MESSAGE_TAGS = {
+    messages.DEBUG: 'alert-info',
+    messages.INFO: 'alert-info',
+    messages.SUCCESS: 'alert-success',
+    messages.WARNING: 'alert-warning',
+    messages.ERROR: 'alert-danger',
+}
+
 
 vars().update(env.email_url('DJANGO_EMAIL_URL', default="consolemail://"))
 
@@ -96,23 +135,64 @@ AUTH_PASSWORD_VALIDATORS = [
     { 'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',},
     { 'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',},
 ]
+# support authentication using username or email
+AUTHENTICATION_BACKENDS = [
+    'core.components.auth.EmailOrUsernameAuthBackend',
+]
 
 LANGUAGE_CODE = env.get('DJANGO_LANG', 'en-AU')
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
+STATIC_URL = env.get('DJANGO_STATIC_URL', '/static/')
+STATICFILES_DIRS = [  # where (non-app_ static files are discovered
+]
+STATICFILES_FINDERS = [
+    'npm.finders.NpmFinder',                                    # node_modules
+    'django.contrib.staticfiles.finders.FileSystemFinder',      # STATICFILES_DIRS
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',  # {app}/static
+]
+STATIC_ROOT = str(PROJECT_ROOT / 'static')        # where static files are collected
+NPM_ROOT_PATH = str(PROJECT_ROOT)
+NPM_FILE_PATTERNS = {
+    'mini.css': [
+        'dist/*'
+    ],
+    '@fortawesome': [
+        'fontawesome-free/css/*.css',
+        'fontawesome-free/webfonts/*',
+    ],
+    'htmx.org': [
+        'dist/*'
+    ]
+}
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.2/howto/static-files/
+MEDIA_ROOT = str(PROJECT_ROOT / 'media')
+MEDIA_URL = env.get('DJANGO_MEDIA_URL', '/media/')
 
-STATIC_URL = '/static/'
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+## Third party config
+# markdownx
+MARKDOWNX_MARKDOWN_EXTENSIONS = [
+    'markdown.extensions.extra',        # built in combo
+    'markdown.extensions.codehilite',   # syntax highlighting using pygments
+    'markdown.extensions.meta',
+    'markdown.extensions.toc',          # table of contents [TOC]
+    'markdown_markup_emoji.markup_emoji',
+    'mdx_emoticons',
+]
+MARKDOWNX_MARKDOWN_EXTENSION_CONFIGS = {
+    'mdx_emoticons': {
+        'base_url': f"{MEDIA_URL}emoticons/",
+        'file_extension': 'gif'
+    }
+}
+MARKDOWNX_URLS_PATH = '/markdownx/markdownify/'
+MARKDOWNX_UPLOAD_URLS_PATH = '/markdownx/upload/'
+MARKDOWNX_UPLOAD_MAX_SIZE = 50 * 1024 * 1024
+MARKDOWNX_UPLOAD_CONTENT_TYPES = ['image/jpeg', 'image/png', 'image/svg+xml', 'image/webp']
+MARKDOWNX_SERVER_CALL_LATENCY = 2500
+# @TODO: this needs to be lazily evaluated each time
+# MARKDOWNX_MEDIA_PATH = timezone.now().strftime('media/uploads/%Y_%m/')

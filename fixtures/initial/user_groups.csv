@@ -1,0 +1,5 @@
+group,users
+Administrators,davidn
+Staff,davidn|teststaff
+Moderators,davidn|teststaff
+Editors,davidn|teststaff|testuser
