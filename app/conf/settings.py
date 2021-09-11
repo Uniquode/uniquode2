@@ -169,6 +169,7 @@ NPM_FILE_PATTERNS = {
         'dist/*'
     ]
 }
+CORE_ICON_FONTSET = 'fontawesome-pro'
 
 MEDIA_ROOT = str(PROJECT_ROOT / 'media')
 MEDIA_URL = env.get('DJANGO_MEDIA_URL', '/media/')

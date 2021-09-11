@@ -11,6 +11,8 @@ UserModel = get_user_model()
 def test_model_icon():
     icon, _ = Icon.objects.get_or_create(name='one', defaults=dict(svg=''))
     assert icon.name == 'one'
+    assert str(icon) == 'one'
+    assert repr(icon) == '<Icon: one>'
     assert icon.svg == ''
     assert icon.dt_created
     assert icon.dt_modified
@@ -22,6 +24,8 @@ def test_model_category():
     category, _ = Category.objects.get_or_create(name='one', defaults=dict(icon=icon))
     assert category.name == 'one'
     assert category.icon.name == 'one'
+    assert str(category) == 'one'
+    assert repr(category) == '<Category: one>'
     assert category.dt_created
     assert category.dt_modified
 
@@ -49,6 +53,10 @@ Sending
         assert message.name == 'Sending User'
         assert message.email == 'my@email.com'
         assert message.topic == 'Testing message'
+        if user:
+            assert str(message) == f'Id:{saved_id} From<Sending User> To<{user}> Re<Testing message>'
+        else:
+            assert str(message) == f'Id:{saved_id} From<Sending User> Re<Testing message>'
 
         return Message.objects.get(id=saved_id)
 
