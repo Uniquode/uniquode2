@@ -1,0 +1,5012 @@
+[
+  {
+    "name": "columns",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/columns.svg",
+    "tags": ["action", "format"]
+  },
+  {
+    "name": "comment-dots",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/comment-dots.svg",
+    "tags": ["indicator"]
+  },
+  {
+    "name": "passport",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/passport.svg",
+    "tags": ["action","document"]
+  },
+  {
+    "name": "socks",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/socks.svg",
+    "tags": ["internet","object","wearable"]
+  },
+  {
+    "name": "underline",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/underline.svg",
+    "tags": ["action","format"]
+  },
+  {
+    "name": "tint-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tint-slash.svg",
+    "tags": ["action","format"]
+  },
+  {
+    "name": "undo-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/undo-alt.svg",
+    "tags": ["action"]
+  },
+  {
+    "name": "cloud-meatball",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-meatball.svg",
+    "tags": ["internet"]
+  },
+  {
+    "name": "caret-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-down.svg",
+    "tags": ["action"]
+  },
+  {
+    "name": "laptop-house",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/laptop-house.svg",
+    "tags": ["internet","object"]
+  },
+  {
+    "name": "dice-three",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-three.svg",
+    "tags": ["action","object"]
+  },
+  {
+    "name": "toggle-on",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/toggle-on.svg",
+    "tags": ["action","enable"]
+  },
+  {
+    "name": "clone",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/clone.svg",
+    "tags": ["action","oop","programming"]
+  },
+  {
+    "name": "search",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/search.svg",
+    "tags": ["action","select","filter"]
+  },
+  {
+    "name": "grimace",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grimace.svg",
+    "tags": ["expression","emoji"]
+  },
+  {
+    "name": "angle-double-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-double-left.svg",
+    "tags": ["action","format"]
+  },
+  {
+    "name": "crow",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/crow.svg",
+    "tags": ["animal","object"]
+  },
+  {
+    "name": "pallet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pallet.svg",
+    "tags": ["action","color"]
+  },
+  {
+    "name": "eraser",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/eraser.svg",
+    "tags": ["action","format"]
+  },
+  {
+    "name": "list-ul",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/list-ul.svg",
+    "tags": ["action","document","html","list"]
+  },
+  {
+    "name": "chart-line",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chart-line.svg",
+    "tags": ["action","html","format"]
+  },
+  {
+    "name": "receipt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/receipt.svg",
+    "tags": ["action","document"]
+  },
+  {
+    "name": "briefcase-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/briefcase-medical.svg",
+    "tags": ["action","object","medical"]
+  },
+  {
+    "name": "pause-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pause-circle.svg",
+    "tags": ["action"]
+  },
+  {
+    "name": "check-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/check-square.svg",
+    "tags": ["action","check"]
+  },
+  {
+    "name": "hand-holding-usd",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-holding-usd.svg",
+    "tags": ["action","expression","currency"]
+  },
+  {
+    "name": "cash-register",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cash-register.svg",
+    "tags": ["action","finance"]
+  },
+  {
+    "name": "arrow-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-down.svg",
+    "tags": ["action","format","arrow"]
+  },
+  {
+    "name": "grin-squint",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-squint.svg",
+    "tags": ["expression","emoji"]
+  },
+  {
+    "name": "campground",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/campground.svg",
+    "tags": ["action","location","holiday"]
+  },
+  {
+    "name": "american-sign-language-interpreting",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/american-sign-language-interpreting.svg",
+    "tags": ["action","guesture"]
+  },
+  {
+    "name": "poo",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/poo.svg",
+    "tags": ["object","smell"]
+  },
+  {
+    "name": "search-minus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/search-minus.svg",
+    "tags": ["action","selection","filter"]
+  },
+  {
+    "name": "ghost",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ghost.svg",
+    "tags": ["person","object"]
+  },
+  {
+    "name": "business-time",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/business-time.svg",
+    "tags": ["business","clock"]
+  },
+  {
+    "name": "list",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/list.svg",
+    "tags": ["action","document","html","list"]
+  },
+  {
+    "name": "broadcast-tower",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/broadcast-tower.svg",
+    "tags": ["tower","radio","communication"]
+  },
+  {
+    "name": "sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sign.svg",
+    "tags": ["action","business","sign"]
+  },
+  {
+    "name": "long-arrow-alt-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/long-arrow-alt-right.svg",
+    "tags": ["action","format","arrow"]
+  },
+  {
+    "name": "volume-off",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-off.svg",
+    "tags": ["action","audio"]
+  },
+  {
+    "name": "stream",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/stream.svg",
+    "tags": ["action","audio","video","data"]
+  },
+  {
+    "name": "pen-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pen-alt.svg",
+    "tags": ["action","draw"]
+  },
+  {
+    "name": "neuter",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/neuter.svg",
+    "tags": ["action"]
+  },
+  {
+    "name": "fist-raised",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fist-raised.svg",
+    "tags": ["emotion","emoji","hand"]
+  },
+  {
+    "name": "file-excel",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-excel.svg",
+    "tags": ["document","excel","file"]
+  },
+  {
+    "name": "virus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/virus.svg",
+    "tags": ["document","program","pandemic","covid","sickness"]
+  },
+  {
+    "name": "prescription",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/prescription.svg",
+    "tags": ["document","pandemic","sickness","cure","drug"]
+  },
+  {
+    "name": "bed",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bed.svg",
+    "tags": ["furniture","sleep","hibernate","slumber","dream","snooze"]
+  },
+  {
+    "name": "sort-numeric-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-numeric-up.svg",
+    "tags": ["action","sort","numeric"]
+  },
+  {
+    "name": "stopwatch-20",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/stopwatch-20.svg",
+    "tags": ["clock","watch"]
+  },
+  {
+    "name": "dumpster",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dumpster.svg",
+    "tags": ["trash","rubbish","bin","garbage","waste"]
+  },
+  {
+    "name": "font-awesome-logo-full",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/font-awesome-logo-full.svg",
+    "tags": ["font","appearance"]
+  },
+  {
+    "name": "wind",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wind.svg",
+    "tags": ["weather","cloud","atmosphere"]
+  },
+  {
+    "name": "skiing-nordic",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/skiing-nordic.svg",
+    "tags": ["sport","weather","cloud"]
+  },
+  {
+    "name": "subscript",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/subscript.svg",
+    "tags": ["text","format","appearance"]
+  },
+  {
+    "name": "viruses",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/viruses.svg",
+    "tags": ["sickness","condition"]
+  },
+  {
+    "name": "drum-steelpan",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/drum-steelpan.svg",
+    "tags": ["instrument","drum","percussion"]
+  },
+  {
+    "name": "handshake-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/handshake-slash.svg",
+    "tags": ["covid","isolation","social distance"]
+  },
+  {
+    "name": "user-cog",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-cog.svg",
+    "tags": ["settings","user settings","thinking","gear"]
+  },
+  {
+    "name": "cog",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cog.svg",
+    "tags": ["setting","thinking","gear"]
+  },
+  {
+    "name": "play-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/play-circle.svg",
+    "tags": ["action","control","audio","video"]
+  },
+  {
+    "name": "list-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/list-alt.svg",
+    "tags": ["action","document","html","list"]
+  },
+  {
+    "name": "mobile-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mobile-alt.svg",
+    "tags": ["action","phone","moving"]
+  },
+  {
+    "name": "prescription-bottle-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/prescription-bottle-alt.svg",
+    "tags": ["document","pandemic","sickness","cure","drug"]
+  },
+  {
+    "name": "poll-h",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/poll-h.svg",
+    "tags": ["action","graph"]
+  },
+  {
+    "name": "luggage-cart",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/luggage-cart.svg",
+    "tags": []
+  },
+  {
+    "name": "clinic-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/clinic-medical.svg",
+    "tags": []
+  },
+  {
+    "name": "tools",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tools.svg",
+    "tags": []
+  },
+  {
+    "name": "hryvnia",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hryvnia.svg",
+    "tags": []
+  },
+  {
+    "name": "long-arrow-alt-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/long-arrow-alt-left.svg",
+    "tags": []
+  },
+  {
+    "name": "mitten",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mitten.svg",
+    "tags": []
+  },
+  {
+    "name": "pen-nib",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pen-nib.svg",
+    "tags": []
+  },
+  {
+    "name": "hourglass",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hourglass.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-alt-circle-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-alt-circle-left.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-hearts",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-hearts.svg",
+    "tags": []
+  },
+  {
+    "name": "boxes",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/boxes.svg",
+    "tags": []
+  },
+  {
+    "name": "dot-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dot-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-alpha-up-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-alpha-up-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "chess-rook",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-rook.svg",
+    "tags": []
+  },
+  {
+    "name": "dice-one",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-one.svg",
+    "tags": []
+  },
+  {
+    "name": "reply",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/reply.svg",
+    "tags": []
+  },
+  {
+    "name": "hamburger",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hamburger.svg",
+    "tags": []
+  },
+  {
+    "name": "grip-lines",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grip-lines.svg",
+    "tags": []
+  },
+  {
+    "name": "camera-retro",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/camera-retro.svg",
+    "tags": []
+  },
+  {
+    "name": "toolbox",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/toolbox.svg",
+    "tags": []
+  },
+  {
+    "name": "envelope-open-text",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/envelope-open-text.svg",
+    "tags": []
+  },
+  {
+    "name": "quran",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/quran.svg",
+    "tags": []
+  },
+  {
+    "name": "thermometer-quarter",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thermometer-quarter.svg",
+    "tags": []
+  },
+  {
+    "name": "beer",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/beer.svg",
+    "tags": []
+  },
+  {
+    "name": "ankh",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ankh.svg",
+    "tags": []
+  },
+  {
+    "name": "chess-knight",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-knight.svg",
+    "tags": []
+  },
+  {
+    "name": "id-card-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/id-card-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "comments-dollar",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/comments-dollar.svg",
+    "tags": []
+  },
+  {
+    "name": "spray-can",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/spray-can.svg",
+    "tags": []
+  },
+  {
+    "name": "user-secret",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-secret.svg",
+    "tags": []
+  },
+  {
+    "name": "utensil-spoon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/utensil-spoon.svg",
+    "tags": []
+  },
+  {
+    "name": "star-half-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/star-half-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "basketball-ball",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/basketball-ball.svg",
+    "tags": []
+  },
+  {
+    "name": "head-side-cough",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/head-side-cough.svg",
+    "tags": []
+  },
+  {
+    "name": "umbrella",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/umbrella.svg",
+    "tags": []
+  },
+  {
+    "name": "user",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user.svg",
+    "tags": []
+  },
+  {
+    "name": "blind",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/blind.svg",
+    "tags": []
+  },
+  {
+    "name": "volume-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-down.svg",
+    "tags": []
+  },
+  {
+    "name": "cart-plus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cart-plus.svg",
+    "tags": []
+  },
+  {
+    "name": "id-badge",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/id-badge.svg",
+    "tags": []
+  },
+  {
+    "name": "smile-wink",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/smile-wink.svg",
+    "tags": []
+  },
+  {
+    "name": "network-wired",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/network-wired.svg",
+    "tags": []
+  },
+  {
+    "name": "cannabis",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cannabis.svg",
+    "tags": []
+  },
+  {
+    "name": "tape",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tape.svg",
+    "tags": []
+  },
+  {
+    "name": "photo-video",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/photo-video.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-holding",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-holding.svg",
+    "tags": []
+  },
+  {
+    "name": "laptop-code",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/laptop-code.svg",
+    "tags": []
+  },
+  {
+    "name": "circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/circle.svg",
+    "tags": []
+  },
+  {
+    "name": "temperature-high",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/temperature-high.svg",
+    "tags": []
+  },
+  {
+    "name": "box-tissue",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/box-tissue.svg",
+    "tags": []
+  },
+  {
+    "name": "football-ball",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/football-ball.svg",
+    "tags": []
+  },
+  {
+    "name": "hippo",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hippo.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-tongue-wink",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-tongue-wink.svg",
+    "tags": []
+  },
+  {
+    "name": "envelope-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/envelope-square.svg",
+    "tags": []
+  },
+  {
+    "name": "home",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/home.svg",
+    "tags": []
+  },
+  {
+    "name": "copyright",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/copyright.svg",
+    "tags": []
+  },
+  {
+    "name": "battery-half",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/battery-half.svg",
+    "tags": []
+  },
+  {
+    "name": "music",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/music.svg",
+    "tags": []
+  },
+  {
+    "name": "wave-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wave-square.svg",
+    "tags": []
+  },
+  {
+    "name": "th-list",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/th-list.svg",
+    "tags": []
+  },
+  {
+    "name": "car-crash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/car-crash.svg",
+    "tags": []
+  },
+  {
+    "name": "quote-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/quote-right.svg",
+    "tags": []
+  },
+  {
+    "name": "low-vision",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/low-vision.svg",
+    "tags": []
+  },
+  {
+    "name": "map-marked-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/map-marked-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "users-cog",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/users-cog.svg",
+    "tags": []
+  },
+  {
+    "name": "tasks",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tasks.svg",
+    "tags": []
+  },
+  {
+    "name": "igloo",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/igloo.svg",
+    "tags": []
+  },
+  {
+    "name": "recycle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/recycle.svg",
+    "tags": []
+  },
+  {
+    "name": "eject",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/eject.svg",
+    "tags": []
+  },
+  {
+    "name": "laugh-wink",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/laugh-wink.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-point-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-point-right.svg",
+    "tags": []
+  },
+  {
+    "name": "archway",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/archway.svg",
+    "tags": []
+  },
+  {
+    "name": "chevron-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-down.svg",
+    "tags": []
+  },
+  {
+    "name": "heading",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/heading.svg",
+    "tags": []
+  },
+  {
+    "name": "strikethrough",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/strikethrough.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-numeric-up-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-numeric-up-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "file-word",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-word.svg",
+    "tags": []
+  },
+  {
+    "name": "i-cursor",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/i-cursor.svg",
+    "tags": []
+  },
+  {
+    "name": "hospital-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hospital-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "money-check",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/money-check.svg",
+    "tags": []
+  },
+  {
+    "name": "door-closed",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/door-closed.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-alpha-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-alpha-up.svg",
+    "tags": []
+  },
+  {
+    "name": "compact-disc",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/compact-disc.svg",
+    "tags": []
+  },
+  {
+    "name": "hard-hat",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hard-hat.svg",
+    "tags": []
+  },
+  {
+    "name": "user-alt-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-alt-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "gas-pump",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/gas-pump.svg",
+    "tags": []
+  },
+  {
+    "name": "sign-in-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sign-in-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "expand-arrows-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/expand-arrows-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "thermometer-three-quarters",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thermometer-three-quarters.svg",
+    "tags": []
+  },
+  {
+    "name": "weight-hanging",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/weight-hanging.svg",
+    "tags": []
+  },
+  {
+    "name": "couch",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/couch.svg",
+    "tags": []
+  },
+  {
+    "name": "church",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/church.svg",
+    "tags": []
+  },
+  {
+    "name": "crop",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/crop.svg",
+    "tags": []
+  },
+  {
+    "name": "restroom",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/restroom.svg",
+    "tags": []
+  },
+  {
+    "name": "object-group",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/object-group.svg",
+    "tags": []
+  },
+  {
+    "name": "pen-fancy",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pen-fancy.svg",
+    "tags": []
+  },
+  {
+    "name": "cookie",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cookie.svg",
+    "tags": []
+  },
+  {
+    "name": "tag",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tag.svg",
+    "tags": []
+  },
+  {
+    "name": "user-tag",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-tag.svg",
+    "tags": []
+  },
+  {
+    "name": "skiing",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/skiing.svg",
+    "tags": []
+  },
+  {
+    "name": "file-export",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-export.svg",
+    "tags": []
+  },
+  {
+    "name": "file-medical-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-medical-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "briefcase",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/briefcase.svg",
+    "tags": []
+  },
+  {
+    "name": "dragon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dragon.svg",
+    "tags": []
+  },
+  {
+    "name": "file-audio",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-audio.svg",
+    "tags": []
+  },
+  {
+    "name": "pen-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pen-square.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-wink",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-wink.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-circle-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-circle-up.svg",
+    "tags": []
+  },
+  {
+    "name": "splotch",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/splotch.svg",
+    "tags": []
+  },
+  {
+    "name": "shower",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shower.svg",
+    "tags": []
+  },
+  {
+    "name": "teeth-open",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/teeth-open.svg",
+    "tags": []
+  },
+  {
+    "name": "phone-volume",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/phone-volume.svg",
+    "tags": []
+  },
+  {
+    "name": "exchange-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/exchange-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "thermometer-half",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thermometer-half.svg",
+    "tags": []
+  },
+  {
+    "name": "pound-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pound-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "headset",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/headset.svg",
+    "tags": []
+  },
+  {
+    "name": "carrot",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/carrot.svg",
+    "tags": []
+  },
+  {
+    "name": "prescription-bottle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/prescription-bottle.svg",
+    "tags": []
+  },
+  {
+    "name": "map",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/map.svg",
+    "tags": []
+  },
+  {
+    "name": "inbox",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/inbox.svg",
+    "tags": []
+  },
+  {
+    "name": "balance-scale-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/balance-scale-right.svg",
+    "tags": []
+  },
+  {
+    "name": "comments",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/comments.svg",
+    "tags": []
+  },
+  {
+    "name": "align-justify",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/align-justify.svg",
+    "tags": []
+  },
+  {
+    "name": "plus-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/plus-square.svg",
+    "tags": []
+  },
+  {
+    "name": "microphone",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/microphone.svg",
+    "tags": []
+  },
+  {
+    "name": "database",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/database.svg",
+    "tags": []
+  },
+  {
+    "name": "calendar-day",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-day.svg",
+    "tags": []
+  },
+  {
+    "name": "angle-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-down.svg",
+    "tags": []
+  },
+  {
+    "name": "pump-soap",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pump-soap.svg",
+    "tags": []
+  },
+  {
+    "name": "hands-helping",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hands-helping.svg",
+    "tags": []
+  },
+  {
+    "name": "rss-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/rss-square.svg",
+    "tags": []
+  },
+  {
+    "name": "dice-five",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-five.svg",
+    "tags": []
+  },
+  {
+    "name": "swimmer",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/swimmer.svg",
+    "tags": []
+  },
+  {
+    "name": "truck-moving",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-moving.svg",
+    "tags": []
+  },
+  {
+    "name": "trash-restore",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/trash-restore.svg",
+    "tags": []
+  },
+  {
+    "name": "satellite-dish",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/satellite-dish.svg",
+    "tags": []
+  },
+  {
+    "name": "text-width",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/text-width.svg",
+    "tags": []
+  },
+  {
+    "name": "globe-asia",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/globe-asia.svg",
+    "tags": []
+  },
+  {
+    "name": "user-astronaut",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-astronaut.svg",
+    "tags": []
+  },
+  {
+    "name": "file-invoice-dollar",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-invoice-dollar.svg",
+    "tags": []
+  },
+  {
+    "name": "file",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file.svg",
+    "tags": []
+  },
+  {
+    "name": "meh-blank",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/meh-blank.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud-upload-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-upload-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "signal",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/signal.svg",
+    "tags": []
+  },
+  {
+    "name": "book-dead",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/book-dead.svg",
+    "tags": []
+  },
+  {
+    "name": "brain",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/brain.svg",
+    "tags": []
+  },
+  {
+    "name": "male",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/male.svg",
+    "tags": []
+  },
+  {
+    "name": "paint-brush",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/paint-brush.svg",
+    "tags": []
+  },
+  {
+    "name": "helicopter",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/helicopter.svg",
+    "tags": []
+  },
+  {
+    "name": "ruler-horizontal",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ruler-horizontal.svg",
+    "tags": []
+  },
+  {
+    "name": "paw",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/paw.svg",
+    "tags": []
+  },
+  {
+    "name": "chess",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chess.svg",
+    "tags": []
+  },
+  {
+    "name": "wine-glass-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wine-glass-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "voicemail",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/voicemail.svg",
+    "tags": []
+  },
+  {
+    "name": "golf-ball",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/golf-ball.svg",
+    "tags": []
+  },
+  {
+    "name": "road",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/road.svg",
+    "tags": []
+  },
+  {
+    "name": "text-height",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/text-height.svg",
+    "tags": []
+  },
+  {
+    "name": "kiss-wink-heart",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/kiss-wink-heart.svg",
+    "tags": []
+  },
+  {
+    "name": "frown-open",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/frown-open.svg",
+    "tags": []
+  },
+  {
+    "name": "box-open",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/box-open.svg",
+    "tags": []
+  },
+  {
+    "name": "terminal",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/terminal.svg",
+    "tags": []
+  },
+  {
+    "name": "square-root-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/square-root-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "city",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/city.svg",
+    "tags": []
+  },
+  {
+    "name": "comment-dollar",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/comment-dollar.svg",
+    "tags": []
+  },
+  {
+    "name": "chevron-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-up.svg",
+    "tags": []
+  },
+  {
+    "name": "lira-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/lira-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "square-full",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/square-full.svg",
+    "tags": []
+  },
+  {
+    "name": "ticket-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ticket-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "laugh",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/laugh.svg",
+    "tags": []
+  },
+  {
+    "name": "unlock-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/unlock-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "sad-tear",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sad-tear.svg",
+    "tags": []
+  },
+  {
+    "name": "file-video",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-video.svg",
+    "tags": []
+  },
+  {
+    "name": "house-damage",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/house-damage.svg",
+    "tags": []
+  },
+  {
+    "name": "mortar-pestle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mortar-pestle.svg",
+    "tags": []
+  },
+  {
+    "name": "folder-open",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/folder-open.svg",
+    "tags": []
+  },
+  {
+    "name": "plane-departure",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/plane-departure.svg",
+    "tags": []
+  },
+  {
+    "name": "paint-roller",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/paint-roller.svg",
+    "tags": []
+  },
+  {
+    "name": "keyboard",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/keyboard.svg",
+    "tags": []
+  },
+  {
+    "name": "less-than",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/less-than.svg",
+    "tags": []
+  },
+  {
+    "name": "angle-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-up.svg",
+    "tags": []
+  },
+  {
+    "name": "bath",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bath.svg",
+    "tags": []
+  },
+  {
+    "name": "record-vinyl",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/record-vinyl.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "exclamation-triangle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/exclamation-triangle.svg",
+    "tags": []
+  },
+  {
+    "name": "question-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/question-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "map-signs",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/map-signs.svg",
+    "tags": []
+  },
+  {
+    "name": "poo-storm",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/poo-storm.svg",
+    "tags": []
+  },
+  {
+    "name": "map-marker",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/map-marker.svg",
+    "tags": []
+  },
+  {
+    "name": "question",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/question.svg",
+    "tags": []
+  },
+  {
+    "name": "lock",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/lock.svg",
+    "tags": []
+  },
+  {
+    "name": "x-ray",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/x-ray.svg",
+    "tags": []
+  },
+  {
+    "name": "fire",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fire.svg",
+    "tags": []
+  },
+  {
+    "name": "ban",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ban.svg",
+    "tags": []
+  },
+  {
+    "name": "portrait",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/portrait.svg",
+    "tags": []
+  },
+  {
+    "name": "shopping-bag",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shopping-bag.svg",
+    "tags": []
+  },
+  {
+    "name": "divide",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/divide.svg",
+    "tags": []
+  },
+  {
+    "name": "piggy-bank",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/piggy-bank.svg",
+    "tags": []
+  },
+  {
+    "name": "file-contract",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-contract.svg",
+    "tags": []
+  },
+  {
+    "name": "sd-card",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sd-card.svg",
+    "tags": []
+  },
+  {
+    "name": "redo-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/redo-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "bacterium",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bacterium.svg",
+    "tags": []
+  },
+  {
+    "name": "pen",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pen.svg",
+    "tags": []
+  },
+  {
+    "name": "drumstick-bite",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/drumstick-bite.svg",
+    "tags": []
+  },
+  {
+    "name": "plane",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/plane.svg",
+    "tags": []
+  },
+  {
+    "name": "chevron-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-right.svg",
+    "tags": []
+  },
+  {
+    "name": "republican",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/republican.svg",
+    "tags": []
+  },
+  {
+    "name": "clipboard",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/clipboard.svg",
+    "tags": []
+  },
+  {
+    "name": "mars",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mars.svg",
+    "tags": []
+  },
+  {
+    "name": "venus-mars",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/venus-mars.svg",
+    "tags": []
+  },
+  {
+    "name": "truck-pickup",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-pickup.svg",
+    "tags": []
+  },
+  {
+    "name": "life-ring",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/life-ring.svg",
+    "tags": []
+  },
+  {
+    "name": "link",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/link.svg",
+    "tags": []
+  },
+  {
+    "name": "compress-arrows-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/compress-arrows-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "certificate",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/certificate.svg",
+    "tags": []
+  },
+  {
+    "name": "toggle-off",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/toggle-off.svg",
+    "tags": []
+  },
+  {
+    "name": "ellipsis-h",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ellipsis-h.svg",
+    "tags": []
+  },
+  {
+    "name": "hot-tub",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hot-tub.svg",
+    "tags": []
+  },
+  {
+    "name": "key",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/key.svg",
+    "tags": []
+  },
+  {
+    "name": "birthday-cake",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/birthday-cake.svg",
+    "tags": []
+  },
+  {
+    "name": "map-marked",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/map-marked.svg",
+    "tags": []
+  },
+  {
+    "name": "gifts",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/gifts.svg",
+    "tags": []
+  },
+  {
+    "name": "level-down-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/level-down-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "meh",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/meh.svg",
+    "tags": []
+  },
+  {
+    "name": "caret-square-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-square-left.svg",
+    "tags": []
+  },
+  {
+    "name": "medkit",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/medkit.svg",
+    "tags": []
+  },
+  {
+    "name": "door-open",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/door-open.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud-sun",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-sun.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-right.svg",
+    "tags": []
+  },
+  {
+    "name": "store",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/store.svg",
+    "tags": []
+  },
+  {
+    "name": "greater-than-equal",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/greater-than-equal.svg",
+    "tags": []
+  },
+  {
+    "name": "hamsa",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hamsa.svg",
+    "tags": []
+  },
+  {
+    "name": "calendar-plus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-plus.svg",
+    "tags": []
+  },
+  {
+    "name": "brush",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/brush.svg",
+    "tags": []
+  },
+  {
+    "name": "at",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/at.svg",
+    "tags": []
+  },
+  {
+    "name": "percentage",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/percentage.svg",
+    "tags": []
+  },
+  {
+    "name": "stop-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/stop-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "concierge-bell",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/concierge-bell.svg",
+    "tags": []
+  },
+  {
+    "name": "phone-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/phone-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "cubes",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cubes.svg",
+    "tags": []
+  },
+  {
+    "name": "user-ninja",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-ninja.svg",
+    "tags": []
+  },
+  {
+    "name": "ship",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ship.svg",
+    "tags": []
+  },
+  {
+    "name": "qrcode",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/qrcode.svg",
+    "tags": []
+  },
+  {
+    "name": "notes-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/notes-medical.svg",
+    "tags": []
+  },
+  {
+    "name": "ambulance",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ambulance.svg",
+    "tags": []
+  },
+  {
+    "name": "user-clock",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-clock.svg",
+    "tags": []
+  },
+  {
+    "name": "calendar-check",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-check.svg",
+    "tags": []
+  },
+  {
+    "name": "skating",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/skating.svg",
+    "tags": []
+  },
+  {
+    "name": "store-alt-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/store-alt-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "stopwatch",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/stopwatch.svg",
+    "tags": []
+  },
+  {
+    "name": "border-all",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/border-all.svg",
+    "tags": []
+  },
+  {
+    "name": "minus-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/minus-square.svg",
+    "tags": []
+  },
+  {
+    "name": "yen-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/yen-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "calendar-week",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-week.svg",
+    "tags": []
+  },
+  {
+    "name": "pizza-slice",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pizza-slice.svg",
+    "tags": []
+  },
+  {
+    "name": "thumbs-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thumbs-down.svg",
+    "tags": []
+  },
+  {
+    "name": "comment-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/comment-medical.svg",
+    "tags": []
+  },
+  {
+    "name": "compress",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/compress.svg",
+    "tags": []
+  },
+  {
+    "name": "envelope",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/envelope.svg",
+    "tags": []
+  },
+  {
+    "name": "user-md",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-md.svg",
+    "tags": []
+  },
+  {
+    "name": "utensils",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/utensils.svg",
+    "tags": []
+  },
+  {
+    "name": "person-booth",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/person-booth.svg",
+    "tags": []
+  },
+  {
+    "name": "archive",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/archive.svg",
+    "tags": []
+  },
+  {
+    "name": "caret-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-up.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-point-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-point-left.svg",
+    "tags": []
+  },
+  {
+    "name": "location-arrow",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/location-arrow.svg",
+    "tags": []
+  },
+  {
+    "name": "magnet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/magnet.svg",
+    "tags": []
+  },
+  {
+    "name": "school",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/school.svg",
+    "tags": []
+  },
+  {
+    "name": "diagnoses",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/diagnoses.svg",
+    "tags": []
+  },
+  {
+    "name": "ruler-vertical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ruler-vertical.svg",
+    "tags": []
+  },
+  {
+    "name": "desktop",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/desktop.svg",
+    "tags": []
+  },
+  {
+    "name": "download",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/download.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-lizard",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-lizard.svg",
+    "tags": []
+  },
+  {
+    "name": "baseball-ball",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/baseball-ball.svg",
+    "tags": []
+  },
+  {
+    "name": "expand",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/expand.svg",
+    "tags": []
+  },
+  {
+    "name": "people-carry",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/people-carry.svg",
+    "tags": []
+  },
+  {
+    "name": "khanda",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/khanda.svg",
+    "tags": []
+  },
+  {
+    "name": "teeth",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/teeth.svg",
+    "tags": []
+  },
+  {
+    "name": "phone-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/phone-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "fighter-jet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fighter-jet.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-scissors",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-scissors.svg",
+    "tags": []
+  },
+  {
+    "name": "vihara",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/vihara.svg",
+    "tags": []
+  },
+  {
+    "name": "battery-three-quarters",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/battery-three-quarters.svg",
+    "tags": []
+  },
+  {
+    "name": "book-open",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/book-open.svg",
+    "tags": []
+  },
+  {
+    "name": "hourglass-start",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hourglass-start.svg",
+    "tags": []
+  },
+  {
+    "name": "comment-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/comment-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "sign-out-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sign-out-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "glass-cheers",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/glass-cheers.svg",
+    "tags": []
+  },
+  {
+    "name": "file-import",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-import.svg",
+    "tags": []
+  },
+  {
+    "name": "transgender-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/transgender-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "disease",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/disease.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-point-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-point-up.svg",
+    "tags": []
+  },
+  {
+    "name": "server",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/server.svg",
+    "tags": []
+  },
+  {
+    "name": "bolt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bolt.svg",
+    "tags": []
+  },
+  {
+    "name": "tv",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tv.svg",
+    "tags": []
+  },
+  {
+    "name": "sms",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sms.svg",
+    "tags": []
+  },
+  {
+    "name": "democrat",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/democrat.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-holding-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-holding-medical.svg",
+    "tags": []
+  },
+  {
+    "name": "user-plus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-plus.svg",
+    "tags": []
+  },
+  {
+    "name": "tablet-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tablet-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "money-bill-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/money-bill-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "cocktail",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cocktail.svg",
+    "tags": []
+  },
+  {
+    "name": "chevron-circle-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-circle-right.svg",
+    "tags": []
+  },
+  {
+    "name": "star-and-crescent",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/star-and-crescent.svg",
+    "tags": []
+  },
+  {
+    "name": "angle-double-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-double-right.svg",
+    "tags": []
+  },
+  {
+    "name": "shapes",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shapes.svg",
+    "tags": []
+  },
+  {
+    "name": "solar-panel",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/solar-panel.svg",
+    "tags": []
+  },
+  {
+    "name": "mosque",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mosque.svg",
+    "tags": []
+  },
+  {
+    "name": "satellite",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/satellite.svg",
+    "tags": []
+  },
+  {
+    "name": "indent",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/indent.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-amount-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-amount-down.svg",
+    "tags": []
+  },
+  {
+    "name": "chevron-circle-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-circle-left.svg",
+    "tags": []
+  },
+  {
+    "name": "ad",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ad.svg",
+    "tags": []
+  },
+  {
+    "name": "dna",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dna.svg",
+    "tags": []
+  },
+  {
+    "name": "slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/slash.svg",
+    "tags": []
+  },
+  {
+    "name": "taxi",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/taxi.svg",
+    "tags": []
+  },
+  {
+    "name": "book",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/book.svg",
+    "tags": []
+  },
+  {
+    "name": "hotdog",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hotdog.svg",
+    "tags": []
+  },
+  {
+    "name": "remove-format",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/remove-format.svg",
+    "tags": []
+  },
+  {
+    "name": "hotel",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hotel.svg",
+    "tags": []
+  },
+  {
+    "name": "plane-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/plane-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "object-ungroup",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/object-ungroup.svg",
+    "tags": []
+  },
+  {
+    "name": "skull",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/skull.svg",
+    "tags": []
+  },
+  {
+    "name": "thermometer-full",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thermometer-full.svg",
+    "tags": []
+  },
+  {
+    "name": "paragraph",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/paragraph.svg",
+    "tags": []
+  },
+  {
+    "name": "plug",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/plug.svg",
+    "tags": []
+  },
+  {
+    "name": "thermometer-empty",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thermometer-empty.svg",
+    "tags": []
+  },
+  {
+    "name": "train",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/train.svg",
+    "tags": []
+  },
+  {
+    "name": "h-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/h-square.svg",
+    "tags": []
+  },
+  {
+    "name": "chess-board",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-board.svg",
+    "tags": []
+  },
+  {
+    "name": "user-minus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-minus.svg",
+    "tags": []
+  },
+  {
+    "name": "dizzy",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dizzy.svg",
+    "tags": []
+  },
+  {
+    "name": "wallet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wallet.svg",
+    "tags": []
+  },
+  {
+    "name": "file-image",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-image.svg",
+    "tags": []
+  },
+  {
+    "name": "bell",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bell.svg",
+    "tags": []
+  },
+  {
+    "name": "coffee",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/coffee.svg",
+    "tags": []
+  },
+  {
+    "name": "code",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/code.svg",
+    "tags": []
+  },
+  {
+    "name": "dolly",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dolly.svg",
+    "tags": []
+  },
+  {
+    "name": "user-lock",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-lock.svg",
+    "tags": []
+  },
+  {
+    "name": "volleyball-ball",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/volleyball-ball.svg",
+    "tags": []
+  },
+  {
+    "name": "shield-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shield-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "long-arrow-alt-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/long-arrow-alt-up.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud-moon-rain",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-moon-rain.svg",
+    "tags": []
+  },
+  {
+    "name": "project-diagram",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/project-diagram.svg",
+    "tags": []
+  },
+  {
+    "name": "thermometer",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thermometer.svg",
+    "tags": []
+  },
+  {
+    "name": "air-freshener",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/air-freshener.svg",
+    "tags": []
+  },
+  {
+    "name": "spider",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/spider.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-sparkles",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-sparkles.svg",
+    "tags": []
+  },
+  {
+    "name": "flag",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/flag.svg",
+    "tags": []
+  },
+  {
+    "name": "podcast",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/podcast.svg",
+    "tags": []
+  },
+  {
+    "name": "user-times",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-times.svg",
+    "tags": []
+  },
+  {
+    "name": "glass-martini-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/glass-martini-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-peace",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-peace.svg",
+    "tags": []
+  },
+  {
+    "name": "level-up-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/level-up-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "truck-loading",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-loading.svg",
+    "tags": []
+  },
+  {
+    "name": "chess-king",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-king.svg",
+    "tags": []
+  },
+  {
+    "name": "stop",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/stop.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-circle-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-circle-left.svg",
+    "tags": []
+  },
+  {
+    "name": "newspaper",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/newspaper.svg",
+    "tags": []
+  },
+  {
+    "name": "snowflake",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/snowflake.svg",
+    "tags": []
+  },
+  {
+    "name": "step-forward",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/step-forward.svg",
+    "tags": []
+  },
+  {
+    "name": "cube",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cube.svg",
+    "tags": []
+  },
+  {
+    "name": "bomb",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bomb.svg",
+    "tags": []
+  },
+  {
+    "name": "arrows-alt-h",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrows-alt-h.svg",
+    "tags": []
+  },
+  {
+    "name": "file-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-medical.svg",
+    "tags": []
+  },
+  {
+    "name": "shuttle-van",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shuttle-van.svg",
+    "tags": []
+  },
+  {
+    "name": "star-half",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/star-half.svg",
+    "tags": []
+  },
+  {
+    "name": "pencil-ruler",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pencil-ruler.svg",
+    "tags": []
+  },
+  {
+    "name": "ruler",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ruler.svg",
+    "tags": []
+  },
+  {
+    "name": "frown",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/frown.svg",
+    "tags": []
+  },
+  {
+    "name": "truck-monster",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-monster.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-tongue-squint",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-tongue-squint.svg",
+    "tags": []
+  },
+  {
+    "name": "outdent",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/outdent.svg",
+    "tags": []
+  },
+  {
+    "name": "clipboard-list",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/clipboard-list.svg",
+    "tags": []
+  },
+  {
+    "name": "fax",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fax.svg",
+    "tags": []
+  },
+  {
+    "name": "biohazard",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/biohazard.svg",
+    "tags": []
+  },
+  {
+    "name": "caret-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-right.svg",
+    "tags": []
+  },
+  {
+    "name": "user-graduate",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-graduate.svg",
+    "tags": []
+  },
+  {
+    "name": "map-marker-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/map-marker-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "smog",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/smog.svg",
+    "tags": []
+  },
+  {
+    "name": "bold",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bold.svg",
+    "tags": []
+  },
+  {
+    "name": "tablets",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tablets.svg",
+    "tags": []
+  },
+  {
+    "name": "envelope-open",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/envelope-open.svg",
+    "tags": []
+  },
+  {
+    "name": "trophy",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/trophy.svg",
+    "tags": []
+  },
+  {
+    "name": "share-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/share-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "battery-full",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/battery-full.svg",
+    "tags": []
+  },
+  {
+    "name": "equals",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/equals.svg",
+    "tags": []
+  },
+  {
+    "name": "plus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/plus.svg",
+    "tags": []
+  },
+  {
+    "name": "check",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/check.svg",
+    "tags": []
+  },
+  {
+    "name": "seedling",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/seedling.svg",
+    "tags": []
+  },
+  {
+    "name": "star-of-david",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/star-of-david.svg",
+    "tags": []
+  },
+  {
+    "name": "share-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/share-square.svg",
+    "tags": []
+  },
+  {
+    "name": "ruler-combined",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ruler-combined.svg",
+    "tags": []
+  },
+  {
+    "name": "tenge",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tenge.svg",
+    "tags": []
+  },
+  {
+    "name": "trademark",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/trademark.svg",
+    "tags": []
+  },
+  {
+    "name": "kaaba",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/kaaba.svg",
+    "tags": []
+  },
+  {
+    "name": "smoking",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/smoking.svg",
+    "tags": []
+  },
+  {
+    "name": "hospital",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hospital.svg",
+    "tags": []
+  },
+  {
+    "name": "flask",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/flask.svg",
+    "tags": []
+  },
+  {
+    "name": "mars-stroke-v",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mars-stroke-v.svg",
+    "tags": []
+  },
+  {
+    "name": "headphones",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/headphones.svg",
+    "tags": []
+  },
+  {
+    "name": "horse-head",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/horse-head.svg",
+    "tags": []
+  },
+  {
+    "name": "rss",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/rss.svg",
+    "tags": []
+  },
+  {
+    "name": "horse",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/horse.svg",
+    "tags": []
+  },
+  {
+    "name": "landmark",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/landmark.svg",
+    "tags": []
+  },
+  {
+    "name": "money-check-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/money-check-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "wifi",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wifi.svg",
+    "tags": []
+  },
+  {
+    "name": "radiation-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/radiation-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "file-archive",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-archive.svg",
+    "tags": []
+  },
+  {
+    "name": "chalkboard-teacher",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chalkboard-teacher.svg",
+    "tags": []
+  },
+  {
+    "name": "angle-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-right.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-circle-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-circle-right.svg",
+    "tags": []
+  },
+  {
+    "name": "venus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/venus.svg",
+    "tags": []
+  },
+  {
+    "name": "mug-hot",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mug-hot.svg",
+    "tags": []
+  },
+  {
+    "name": "info",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/info.svg",
+    "tags": []
+  },
+  {
+    "name": "bullhorn",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bullhorn.svg",
+    "tags": []
+  },
+  {
+    "name": "bread-slice",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bread-slice.svg",
+    "tags": []
+  },
+  {
+    "name": "microphone-alt-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/microphone-alt-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "dog",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dog.svg",
+    "tags": []
+  },
+  {
+    "name": "user-nurse",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-nurse.svg",
+    "tags": []
+  },
+  {
+    "name": "fan",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fan.svg",
+    "tags": []
+  },
+  {
+    "name": "palette",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/palette.svg",
+    "tags": []
+  },
+  {
+    "name": "share-alt-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/share-alt-square.svg",
+    "tags": []
+  },
+  {
+    "name": "cart-arrow-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cart-arrow-down.svg",
+    "tags": []
+  },
+  {
+    "name": "directions",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/directions.svg",
+    "tags": []
+  },
+  {
+    "name": "om",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/om.svg",
+    "tags": []
+  },
+  {
+    "name": "hourglass-half",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hourglass-half.svg",
+    "tags": []
+  },
+  {
+    "name": "lungs-virus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/lungs-virus.svg",
+    "tags": []
+  },
+  {
+    "name": "holly-berry",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/holly-berry.svg",
+    "tags": []
+  },
+  {
+    "name": "flag-usa",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/flag-usa.svg",
+    "tags": []
+  },
+  {
+    "name": "info-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/info-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "smoking-ban",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/smoking-ban.svg",
+    "tags": []
+  },
+  {
+    "name": "folder-plus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/folder-plus.svg",
+    "tags": []
+  },
+  {
+    "name": "grip-horizontal",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grip-horizontal.svg",
+    "tags": []
+  },
+  {
+    "name": "hat-cowboy",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hat-cowboy.svg",
+    "tags": []
+  },
+  {
+    "name": "space-shuttle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/space-shuttle.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-beam",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-beam.svg",
+    "tags": []
+  },
+  {
+    "name": "biking",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/biking.svg",
+    "tags": []
+  },
+  {
+    "name": "feather-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/feather-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "virus-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/virus-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "hat-cowboy-side",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hat-cowboy-side.svg",
+    "tags": []
+  },
+  {
+    "name": "rainbow",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/rainbow.svg",
+    "tags": []
+  },
+  {
+    "name": "cookie-bite",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cookie-bite.svg",
+    "tags": []
+  },
+  {
+    "name": "copy",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/copy.svg",
+    "tags": []
+  },
+  {
+    "name": "funnel-dollar",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/funnel-dollar.svg",
+    "tags": []
+  },
+  {
+    "name": "tram",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tram.svg",
+    "tags": []
+  },
+  {
+    "name": "fish",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fish.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-numeric-down-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-numeric-down-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "signature",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/signature.svg",
+    "tags": []
+  },
+  {
+    "name": "not-equal",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/not-equal.svg",
+    "tags": []
+  },
+  {
+    "name": "kiss-beam",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/kiss-beam.svg",
+    "tags": []
+  },
+  {
+    "name": "burn",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/burn.svg",
+    "tags": []
+  },
+  {
+    "name": "glasses",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/glasses.svg",
+    "tags": []
+  },
+  {
+    "name": "coins",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/coins.svg",
+    "tags": []
+  },
+  {
+    "name": "closed-captioning",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/closed-captioning.svg",
+    "tags": []
+  },
+  {
+    "name": "sink",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sink.svg",
+    "tags": []
+  },
+  {
+    "name": "monument",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/monument.svg",
+    "tags": []
+  },
+  {
+    "name": "hat-wizard",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hat-wizard.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-alt-circle-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-alt-circle-right.svg",
+    "tags": []
+  },
+  {
+    "name": "less-than-equal",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/less-than-equal.svg",
+    "tags": []
+  },
+  {
+    "name": "balance-scale-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/balance-scale-left.svg",
+    "tags": []
+  },
+  {
+    "name": "file-download",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-download.svg",
+    "tags": []
+  },
+  {
+    "name": "tint",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tint.svg",
+    "tags": []
+  },
+  {
+    "name": "fast-backward",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fast-backward.svg",
+    "tags": []
+  },
+  {
+    "name": "caravan",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caravan.svg",
+    "tags": []
+  },
+  {
+    "name": "industry",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/industry.svg",
+    "tags": []
+  },
+  {
+    "name": "child",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/child.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-alpha-down-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-alpha-down-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "fire-extinguisher",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fire-extinguisher.svg",
+    "tags": []
+  },
+  {
+    "name": "marker",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/marker.svg",
+    "tags": []
+  },
+  {
+    "name": "align-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/align-right.svg",
+    "tags": []
+  },
+  {
+    "name": "image",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/image.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-point-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-point-down.svg",
+    "tags": []
+  },
+  {
+    "name": "vector-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/vector-square.svg",
+    "tags": []
+  },
+  {
+    "name": "lightbulb",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/lightbulb.svg",
+    "tags": []
+  },
+  {
+    "name": "ellipsis-v",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ellipsis-v.svg",
+    "tags": []
+  },
+  {
+    "name": "check-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/check-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "save",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/save.svg",
+    "tags": []
+  },
+  {
+    "name": "smile",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/smile.svg",
+    "tags": []
+  },
+  {
+    "name": "images",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/images.svg",
+    "tags": []
+  },
+  {
+    "name": "tshirt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tshirt.svg",
+    "tags": []
+  },
+  {
+    "name": "pager",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pager.svg",
+    "tags": []
+  },
+  {
+    "name": "shield-virus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shield-virus.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-tears",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-tears.svg",
+    "tags": []
+  },
+  {
+    "name": "donate",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/donate.svg",
+    "tags": []
+  },
+  {
+    "name": "calendar-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "th-large",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/th-large.svg",
+    "tags": []
+  },
+  {
+    "name": "laugh-beam",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/laugh-beam.svg",
+    "tags": []
+  },
+  {
+    "name": "code-branch",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/code-branch.svg",
+    "tags": []
+  },
+  {
+    "name": "vr-cardboard",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/vr-cardboard.svg",
+    "tags": []
+  },
+  {
+    "name": "eye-dropper",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/eye-dropper.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-paper",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-paper.svg",
+    "tags": []
+  },
+  {
+    "name": "caret-square-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-square-down.svg",
+    "tags": []
+  },
+  {
+    "name": "dice-d6",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-d6.svg",
+    "tags": []
+  },
+  {
+    "name": "volume-mute",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-mute.svg",
+    "tags": []
+  },
+  {
+    "name": "search-plus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/search-plus.svg",
+    "tags": []
+  },
+  {
+    "name": "paperclip",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/paperclip.svg",
+    "tags": []
+  },
+  {
+    "name": "file-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "street-view",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/street-view.svg",
+    "tags": []
+  },
+  {
+    "name": "fast-forward",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fast-forward.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-holding-water",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-holding-water.svg",
+    "tags": []
+  },
+  {
+    "name": "trailer",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/trailer.svg",
+    "tags": []
+  },
+  {
+    "name": "syringe",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/syringe.svg",
+    "tags": []
+  },
+  {
+    "name": "car-battery",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/car-battery.svg",
+    "tags": []
+  },
+  {
+    "name": "award",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/award.svg",
+    "tags": []
+  },
+  {
+    "name": "baby-carriage",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/baby-carriage.svg",
+    "tags": []
+  },
+  {
+    "name": "box",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/box.svg",
+    "tags": []
+  },
+  {
+    "name": "thumbs-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thumbs-up.svg",
+    "tags": []
+  },
+  {
+    "name": "superscript",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/superscript.svg",
+    "tags": []
+  },
+  {
+    "name": "glass-martini",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/glass-martini.svg",
+    "tags": []
+  },
+  {
+    "name": "hiking",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hiking.svg",
+    "tags": []
+  },
+  {
+    "name": "mask",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mask.svg",
+    "tags": []
+  },
+  {
+    "name": "peace",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/peace.svg",
+    "tags": []
+  },
+  {
+    "name": "percent",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/percent.svg",
+    "tags": []
+  },
+  {
+    "name": "square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/square.svg",
+    "tags": []
+  },
+  {
+    "name": "crown",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/crown.svg",
+    "tags": []
+  },
+  {
+    "name": "broom",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/broom.svg",
+    "tags": []
+  },
+  {
+    "name": "stethoscope",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/stethoscope.svg",
+    "tags": []
+  },
+  {
+    "name": "eye-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/eye-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "candy-cane",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/candy-cane.svg",
+    "tags": []
+  },
+  {
+    "name": "play",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/play.svg",
+    "tags": []
+  },
+  {
+    "name": "backward",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/backward.svg",
+    "tags": []
+  },
+  {
+    "name": "paper-plane",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/paper-plane.svg",
+    "tags": []
+  },
+  {
+    "name": "cogs",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cogs.svg",
+    "tags": []
+  },
+  {
+    "name": "pencil-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pencil-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "greater-than",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/greater-than.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-alt-circle-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-alt-circle-up.svg",
+    "tags": []
+  },
+  {
+    "name": "dungeon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dungeon.svg",
+    "tags": []
+  },
+  {
+    "name": "user-edit",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-edit.svg",
+    "tags": []
+  },
+  {
+    "name": "table",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/table.svg",
+    "tags": []
+  },
+  {
+    "name": "barcode",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/barcode.svg",
+    "tags": []
+  },
+  {
+    "name": "thumbtack",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/thumbtack.svg",
+    "tags": []
+  },
+  {
+    "name": "hourglass-end",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hourglass-end.svg",
+    "tags": []
+  },
+  {
+    "name": "scroll",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/scroll.svg",
+    "tags": []
+  },
+  {
+    "name": "flag-checkered",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/flag-checkered.svg",
+    "tags": []
+  },
+  {
+    "name": "chalkboard",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chalkboard.svg",
+    "tags": []
+  },
+  {
+    "name": "radiation",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/radiation.svg",
+    "tags": []
+  },
+  {
+    "name": "th",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/th.svg",
+    "tags": []
+  },
+  {
+    "name": "baby",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/baby.svg",
+    "tags": []
+  },
+  {
+    "name": "shekel-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shekel-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-squint-tears",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-squint-tears.svg",
+    "tags": []
+  },
+  {
+    "name": "battery-empty",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/battery-empty.svg",
+    "tags": []
+  },
+  {
+    "name": "star-of-life",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/star-of-life.svg",
+    "tags": []
+  },
+  {
+    "name": "camera",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/camera.svg",
+    "tags": []
+  },
+  {
+    "name": "magic",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/magic.svg",
+    "tags": []
+  },
+  {
+    "name": "border-style",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/border-style.svg",
+    "tags": []
+  },
+  {
+    "name": "users-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/users-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "redo",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/redo.svg",
+    "tags": []
+  },
+  {
+    "name": "file-powerpoint",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-powerpoint.svg",
+    "tags": []
+  },
+  {
+    "name": "folder-minus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/folder-minus.svg",
+    "tags": []
+  },
+  {
+    "name": "otter",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/otter.svg",
+    "tags": []
+  },
+  {
+    "name": "sync-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sync-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "sim-card",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sim-card.svg",
+    "tags": []
+  },
+  {
+    "name": "truck",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/truck.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-tongue",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-tongue.svg",
+    "tags": []
+  },
+  {
+    "name": "apple-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/apple-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-beam-sweat",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-beam-sweat.svg",
+    "tags": []
+  },
+  {
+    "name": "glass-whiskey",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/glass-whiskey.svg",
+    "tags": []
+  },
+  {
+    "name": "oil-can",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/oil-can.svg",
+    "tags": []
+  },
+  {
+    "name": "blender",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/blender.svg",
+    "tags": []
+  },
+  {
+    "name": "wine-glass",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wine-glass.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-spock",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-spock.svg",
+    "tags": []
+  },
+  {
+    "name": "bible",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bible.svg",
+    "tags": []
+  },
+  {
+    "name": "toilet-paper",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/toilet-paper.svg",
+    "tags": []
+  },
+  {
+    "name": "head-side-virus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/head-side-virus.svg",
+    "tags": []
+  },
+  {
+    "name": "egg",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/egg.svg",
+    "tags": []
+  },
+  {
+    "name": "user-friends",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-friends.svg",
+    "tags": []
+  },
+  {
+    "name": "hands-wash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hands-wash.svg",
+    "tags": []
+  },
+  {
+    "name": "bullseye",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bullseye.svg",
+    "tags": []
+  },
+  {
+    "name": "exclamation-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/exclamation-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "bus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bus.svg",
+    "tags": []
+  },
+  {
+    "name": "book-reader",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/book-reader.svg",
+    "tags": []
+  },
+  {
+    "name": "dolly-flatbed",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dolly-flatbed.svg",
+    "tags": []
+  },
+  {
+    "name": "mercury",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mercury.svg",
+    "tags": []
+  },
+  {
+    "name": "infinity",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/infinity.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud-download-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-download-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "bacteria",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bacteria.svg",
+    "tags": []
+  },
+  {
+    "name": "gem",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/gem.svg",
+    "tags": []
+  },
+  {
+    "name": "audio-description",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/audio-description.svg",
+    "tags": []
+  },
+  {
+    "name": "skull-crossbones",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/skull-crossbones.svg",
+    "tags": []
+  },
+  {
+    "name": "feather",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/feather.svg",
+    "tags": []
+  },
+  {
+    "name": "trash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/trash.svg",
+    "tags": []
+  },
+  {
+    "name": "chart-bar",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chart-bar.svg",
+    "tags": []
+  },
+  {
+    "name": "fire-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fire-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "transgender",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/transgender.svg",
+    "tags": []
+  },
+  {
+    "name": "dumpster-fire",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dumpster-fire.svg",
+    "tags": []
+  },
+  {
+    "name": "toilet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/toilet.svg",
+    "tags": []
+  },
+  {
+    "name": "step-backward",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/step-backward.svg",
+    "tags": []
+  },
+  {
+    "name": "leaf",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/leaf.svg",
+    "tags": []
+  },
+  {
+    "name": "paste",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/paste.svg",
+    "tags": []
+  },
+  {
+    "name": "window-maximize",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/window-maximize.svg",
+    "tags": []
+  },
+  {
+    "name": "gopuram",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/gopuram.svg",
+    "tags": []
+  },
+  {
+    "name": "address-book",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/address-book.svg",
+    "tags": []
+  },
+  {
+    "name": "memory",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/memory.svg",
+    "tags": []
+  },
+  {
+    "name": "dollar-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dollar-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "journal-whills",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/journal-whills.svg",
+    "tags": []
+  },
+  {
+    "name": "meh-rolling-eyes",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/meh-rolling-eyes.svg",
+    "tags": []
+  },
+  {
+    "name": "graduation-cap",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/graduation-cap.svg",
+    "tags": []
+  },
+  {
+    "name": "kiwi-bird",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/kiwi-bird.svg",
+    "tags": []
+  },
+  {
+    "name": "volume-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-up.svg",
+    "tags": []
+  },
+  {
+    "name": "fill-drip",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fill-drip.svg",
+    "tags": []
+  },
+  {
+    "name": "sliders-h",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sliders-h.svg",
+    "tags": []
+  },
+  {
+    "name": "running",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/running.svg",
+    "tags": []
+  },
+  {
+    "name": "hashtag",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hashtag.svg",
+    "tags": []
+  },
+  {
+    "name": "guitar",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/guitar.svg",
+    "tags": []
+  },
+  {
+    "name": "bong",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bong.svg",
+    "tags": []
+  },
+  {
+    "name": "star",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/star.svg",
+    "tags": []
+  },
+  {
+    "name": "phone-square-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/phone-square-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "arrows-alt-v",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrows-alt-v.svg",
+    "tags": []
+  },
+  {
+    "name": "euro-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/euro-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "sun",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sun.svg",
+    "tags": []
+  },
+  {
+    "name": "wrench",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wrench.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-circle-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-circle-down.svg",
+    "tags": []
+  },
+  {
+    "name": "circle-notch",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/circle-notch.svg",
+    "tags": []
+  },
+  {
+    "name": "shoe-prints",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shoe-prints.svg",
+    "tags": []
+  },
+  {
+    "name": "edit",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/edit.svg",
+    "tags": []
+  },
+  {
+    "name": "soap",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/soap.svg",
+    "tags": []
+  },
+  {
+    "name": "bacon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bacon.svg",
+    "tags": []
+  },
+  {
+    "name": "unlink",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/unlink.svg",
+    "tags": []
+  },
+  {
+    "name": "plane-arrival",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/plane-arrival.svg",
+    "tags": []
+  },
+  {
+    "name": "bone",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bone.svg",
+    "tags": []
+  },
+  {
+    "name": "bus-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bus-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "crutch",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/crutch.svg",
+    "tags": []
+  },
+  {
+    "name": "anchor",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/anchor.svg",
+    "tags": []
+  },
+  {
+    "name": "jedi",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/jedi.svg",
+    "tags": []
+  },
+  {
+    "name": "head-side-cough-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/head-side-cough-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "hammer",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hammer.svg",
+    "tags": []
+  },
+  {
+    "name": "search-location",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/search-location.svg",
+    "tags": []
+  },
+  {
+    "name": "highlighter",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/highlighter.svg",
+    "tags": []
+  },
+  {
+    "name": "head-side-mask",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/head-side-mask.svg",
+    "tags": []
+  },
+  {
+    "name": "address-card",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/address-card.svg",
+    "tags": []
+  },
+  {
+    "name": "caret-square-right",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-square-right.svg",
+    "tags": []
+  },
+  {
+    "name": "wheelchair",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wheelchair.svg",
+    "tags": []
+  },
+  {
+    "name": "chart-pie",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chart-pie.svg",
+    "tags": []
+  },
+  {
+    "name": "lemon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/lemon.svg",
+    "tags": []
+  },
+  {
+    "name": "place-of-worship",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/place-of-worship.svg",
+    "tags": []
+  },
+  {
+    "name": "bug",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bug.svg",
+    "tags": []
+  },
+  {
+    "name": "smile-beam",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/smile-beam.svg",
+    "tags": []
+  },
+  {
+    "name": "handshake-alt-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/handshake-alt-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "praying-hands",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/praying-hands.svg",
+    "tags": []
+  },
+  {
+    "name": "mars-stroke-h",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mars-stroke-h.svg",
+    "tags": []
+  },
+  {
+    "name": "spinner",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/spinner.svg",
+    "tags": []
+  },
+  {
+    "name": "unlock",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/unlock.svg",
+    "tags": []
+  },
+  {
+    "name": "adjust",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/adjust.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-holding-heart",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-holding-heart.svg",
+    "tags": []
+  },
+  {
+    "name": "compass",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/compass.svg",
+    "tags": []
+  },
+  {
+    "name": "meteor",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/meteor.svg",
+    "tags": []
+  },
+  {
+    "name": "plus-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/plus-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-amount-down-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-amount-down-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "faucet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/faucet.svg",
+    "tags": []
+  },
+  {
+    "name": "search-dollar",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/search-dollar.svg",
+    "tags": []
+  },
+  {
+    "name": "external-link-square-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/external-link-square-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "traffic-light",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/traffic-light.svg",
+    "tags": []
+  },
+  {
+    "name": "bicycle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bicycle.svg",
+    "tags": []
+  },
+  {
+    "name": "menorah",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/menorah.svg",
+    "tags": []
+  },
+  {
+    "name": "hospital-user",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hospital-user.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud-moon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-moon.svg",
+    "tags": []
+  },
+  {
+    "name": "warehouse",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/warehouse.svg",
+    "tags": []
+  },
+  {
+    "name": "chevron-circle-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-circle-down.svg",
+    "tags": []
+  },
+  {
+    "name": "credit-card",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/credit-card.svg",
+    "tags": []
+  },
+  {
+    "name": "user-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "joint",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/joint.svg",
+    "tags": []
+  },
+  {
+    "name": "user-tie",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-tie.svg",
+    "tags": []
+  },
+  {
+    "name": "snowman",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/snowman.svg",
+    "tags": []
+  },
+  {
+    "name": "chevron-circle-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-circle-up.svg",
+    "tags": []
+  },
+  {
+    "name": "tachometer-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tachometer-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "vial",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/vial.svg",
+    "tags": []
+  },
+  {
+    "name": "reply-all",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/reply-all.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-alpha-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-alpha-down.svg",
+    "tags": []
+  },
+  {
+    "name": "language",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/language.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud-rain",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-rain.svg",
+    "tags": []
+  },
+  {
+    "name": "mars-stroke",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mars-stroke.svg",
+    "tags": []
+  },
+  {
+    "name": "venus-double",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/venus-double.svg",
+    "tags": []
+  },
+  {
+    "name": "trash-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/trash-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "window-close",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/window-close.svg",
+    "tags": []
+  },
+  {
+    "name": "tired",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tired.svg",
+    "tags": []
+  },
+  {
+    "name": "vest",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/vest.svg",
+    "tags": []
+  },
+  {
+    "name": "vest-patches",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/vest-patches.svg",
+    "tags": []
+  },
+  {
+    "name": "sitemap",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sitemap.svg",
+    "tags": []
+  },
+  {
+    "name": "deaf",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/deaf.svg",
+    "tags": []
+  },
+  {
+    "name": "crosshairs",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/crosshairs.svg",
+    "tags": []
+  },
+  {
+    "name": "poop",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/poop.svg",
+    "tags": []
+  },
+  {
+    "name": "clock",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/clock.svg",
+    "tags": []
+  },
+  {
+    "name": "window-minimize",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/window-minimize.svg",
+    "tags": []
+  },
+  {
+    "name": "retweet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/retweet.svg",
+    "tags": []
+  },
+  {
+    "name": "phone",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/phone.svg",
+    "tags": []
+  },
+  {
+    "name": "toilet-paper-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/toilet-paper-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "sad-cry",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sad-cry.svg",
+    "tags": []
+  },
+  {
+    "name": "crop-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/crop-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "lungs",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/lungs.svg",
+    "tags": []
+  },
+  {
+    "name": "house-user",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/house-user.svg",
+    "tags": []
+  },
+  {
+    "name": "mail-bulk",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mail-bulk.svg",
+    "tags": []
+  },
+  {
+    "name": "dumbbell",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dumbbell.svg",
+    "tags": []
+  },
+  {
+    "name": "sync",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sync.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-amount-up-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-amount-up-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "wine-bottle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/wine-bottle.svg",
+    "tags": []
+  },
+  {
+    "name": "tractor",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tractor.svg",
+    "tags": []
+  },
+  {
+    "name": "eye",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/eye.svg",
+    "tags": []
+  },
+  {
+    "name": "mobile",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mobile.svg",
+    "tags": []
+  },
+  {
+    "name": "universal-access",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/universal-access.svg",
+    "tags": []
+  },
+  {
+    "name": "user-injured",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-injured.svg",
+    "tags": []
+  },
+  {
+    "name": "angle-double-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-double-up.svg",
+    "tags": []
+  },
+  {
+    "name": "book-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/book-medical.svg",
+    "tags": []
+  },
+  {
+    "name": "dove",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dove.svg",
+    "tags": []
+  },
+  {
+    "name": "car-side",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/car-side.svg",
+    "tags": []
+  },
+  {
+    "name": "bahai",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bahai.svg",
+    "tags": []
+  },
+  {
+    "name": "gift",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/gift.svg",
+    "tags": []
+  },
+  {
+    "name": "compress-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/compress-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "car",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/car.svg",
+    "tags": []
+  },
+  {
+    "name": "registered",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/registered.svg",
+    "tags": []
+  },
+  {
+    "name": "file-invoice",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-invoice.svg",
+    "tags": []
+  },
+  {
+    "name": "long-arrow-alt-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/long-arrow-alt-down.svg",
+    "tags": []
+  },
+  {
+    "name": "draw-polygon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/draw-polygon.svg",
+    "tags": []
+  },
+  {
+    "name": "battery-quarter",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/battery-quarter.svg",
+    "tags": []
+  },
+  {
+    "name": "atlas",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/atlas.svg",
+    "tags": []
+  },
+  {
+    "name": "table-tennis",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/table-tennis.svg",
+    "tags": []
+  },
+  {
+    "name": "layer-group",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/layer-group.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-alt-circle-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-alt-circle-down.svg",
+    "tags": []
+  },
+  {
+    "name": "share",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/share.svg",
+    "tags": []
+  },
+  {
+    "name": "tags",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tags.svg",
+    "tags": []
+  },
+  {
+    "name": "people-arrows",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/people-arrows.svg",
+    "tags": []
+  },
+  {
+    "name": "vials",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/vials.svg",
+    "tags": []
+  },
+  {
+    "name": "globe-europe",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/globe-europe.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-up.svg",
+    "tags": []
+  },
+  {
+    "name": "balance-scale",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/balance-scale.svg",
+    "tags": []
+  },
+  {
+    "name": "grin",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin.svg",
+    "tags": []
+  },
+  {
+    "name": "microscope",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/microscope.svg",
+    "tags": []
+  },
+  {
+    "name": "subway",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/subway.svg",
+    "tags": []
+  },
+  {
+    "name": "microphone-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/microphone-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "first-aid",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/first-aid.svg",
+    "tags": []
+  },
+  {
+    "name": "drum",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/drum.svg",
+    "tags": []
+  },
+  {
+    "name": "sort",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort.svg",
+    "tags": []
+  },
+  {
+    "name": "procedures",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/procedures.svg",
+    "tags": []
+  },
+  {
+    "name": "calendar-minus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-minus.svg",
+    "tags": []
+  },
+  {
+    "name": "ethernet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ethernet.svg",
+    "tags": []
+  },
+  {
+    "name": "undo",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/undo.svg",
+    "tags": []
+  },
+  {
+    "name": "video",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/video.svg",
+    "tags": []
+  },
+  {
+    "name": "robot",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/robot.svg",
+    "tags": []
+  },
+  {
+    "name": "pepper-hot",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pepper-hot.svg",
+    "tags": []
+  },
+  {
+    "name": "tree",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tree.svg",
+    "tags": []
+  },
+  {
+    "name": "id-card",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/id-card.svg",
+    "tags": []
+  },
+  {
+    "name": "pills",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pills.svg",
+    "tags": []
+  },
+  {
+    "name": "puzzle-piece",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/puzzle-piece.svg",
+    "tags": []
+  },
+  {
+    "name": "map-pin",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/map-pin.svg",
+    "tags": []
+  },
+  {
+    "name": "filter",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/filter.svg",
+    "tags": []
+  },
+  {
+    "name": "allergies",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/allergies.svg",
+    "tags": []
+  },
+  {
+    "name": "suitcase-rolling",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/suitcase-rolling.svg",
+    "tags": []
+  },
+  {
+    "name": "water",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/water.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud-showers-heavy",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-showers-heavy.svg",
+    "tags": []
+  },
+  {
+    "name": "chess-pawn",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-pawn.svg",
+    "tags": []
+  },
+  {
+    "name": "umbrella-beach",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/umbrella-beach.svg",
+    "tags": []
+  },
+  {
+    "name": "check-double",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/check-double.svg",
+    "tags": []
+  },
+  {
+    "name": "file-signature",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-signature.svg",
+    "tags": []
+  },
+  {
+    "name": "italic",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/italic.svg",
+    "tags": []
+  },
+  {
+    "name": "globe-americas",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/globe-americas.svg",
+    "tags": []
+  },
+  {
+    "name": "bell-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bell-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "handshake",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/handshake.svg",
+    "tags": []
+  },
+  {
+    "name": "money-bill",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/money-bill.svg",
+    "tags": []
+  },
+  {
+    "name": "medal",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/medal.svg",
+    "tags": []
+  },
+  {
+    "name": "mars-double",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mars-double.svg",
+    "tags": []
+  },
+  {
+    "name": "won-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/won-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "comment",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/comment.svg",
+    "tags": []
+  },
+  {
+    "name": "torii-gate",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/torii-gate.svg",
+    "tags": []
+  },
+  {
+    "name": "video-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/video-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "calendar",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar.svg",
+    "tags": []
+  },
+  {
+    "name": "globe",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/globe.svg",
+    "tags": []
+  },
+  {
+    "name": "arrow-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-left.svg",
+    "tags": []
+  },
+  {
+    "name": "align-center",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/align-center.svg",
+    "tags": []
+  },
+  {
+    "name": "hospital-symbol",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hospital-symbol.svg",
+    "tags": []
+  },
+  {
+    "name": "cross",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cross.svg",
+    "tags": []
+  },
+  {
+    "name": "blog",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/blog.svg",
+    "tags": []
+  },
+  {
+    "name": "university",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/university.svg",
+    "tags": []
+  },
+  {
+    "name": "route",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/route.svg",
+    "tags": []
+  },
+  {
+    "name": "bowling-ball",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bowling-ball.svg",
+    "tags": []
+  },
+  {
+    "name": "money-bill-wave-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/money-bill-wave-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "minus-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/minus-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "grip-lines-vertical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grip-lines-vertical.svg",
+    "tags": []
+  },
+  {
+    "name": "microchip",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/microchip.svg",
+    "tags": []
+  },
+  {
+    "name": "frog",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/frog.svg",
+    "tags": ["animal","amphibian"]
+  },
+  {
+    "name": "laptop",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/laptop.svg",
+    "tags": ["computer"]
+  },
+  {
+    "name": "power-off",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/power-off.svg",
+    "tags": ["action","control","switch"]
+  },
+  {
+    "name": "theater-masks",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/theater-masks.svg",
+    "tags": ["theatre","arts","creativity"]
+  },
+  {
+    "name": "heartbeat",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/heartbeat.svg",
+    "tags": ["life"]
+  },
+  {
+    "name": "chart-area",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chart-area.svg",
+    "tags": ["graph"]
+  },
+  {
+    "name": "sign-language",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sign-language.svg",
+    "tags": []
+  },
+  {
+    "name": "quote-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/quote-left.svg",
+    "tags": ["action","document","punctuation"]
+  },
+  {
+    "name": "file-prescription",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-prescription.svg",
+    "tags": []
+  },
+  {
+    "name": "mountain",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mountain.svg",
+    "tags": []
+  },
+  {
+    "name": "microphone-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/microphone-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "times-circle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/times-circle.svg",
+    "tags": []
+  },
+  {
+    "name": "caret-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-left.svg",
+    "tags": []
+  },
+  {
+    "name": "dice-two",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-two.svg",
+    "tags": []
+  },
+  {
+    "name": "tooth",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tooth.svg",
+    "tags": []
+  },
+  {
+    "name": "chess-queen",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-queen.svg",
+    "tags": []
+  },
+  {
+    "name": "calendar-times",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-times.svg",
+    "tags": []
+  },
+  {
+    "name": "headphones-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/headphones-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "digital-tachograph",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/digital-tachograph.svg",
+    "tags": []
+  },
+  {
+    "name": "file-code",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-code.svg",
+    "tags": []
+  },
+  {
+    "name": "file-csv",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-csv.svg",
+    "tags": []
+  },
+  {
+    "name": "external-link-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/external-link-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "heart-broken",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/heart-broken.svg",
+    "tags": []
+  },
+  {
+    "name": "angle-double-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-double-down.svg",
+    "tags": []
+  },
+  {
+    "name": "dice-six",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-six.svg",
+    "tags": []
+  },
+  {
+    "name": "cut",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cut.svg",
+    "tags": []
+  },
+  {
+    "name": "user-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud.svg",
+    "tags": []
+  },
+  {
+    "name": "hockey-puck",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hockey-puck.svg",
+    "tags": []
+  },
+  {
+    "name": "tty",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tty.svg",
+    "tags": []
+  },
+  {
+    "name": "grip-vertical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grip-vertical.svg",
+    "tags": []
+  },
+  {
+    "name": "futbol",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/futbol.svg",
+    "tags": []
+  },
+  {
+    "name": "snowboarding",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/snowboarding.svg",
+    "tags": []
+  },
+  {
+    "name": "cheese",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cheese.svg",
+    "tags": []
+  },
+  {
+    "name": "comment-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/comment-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "dice",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice.svg",
+    "tags": []
+  },
+  {
+    "name": "bars",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bars.svg",
+    "tags": []
+  },
+  {
+    "name": "bezier-curve",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bezier-curve.svg",
+    "tags": []
+  },
+  {
+    "name": "chair",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chair.svg",
+    "tags": []
+  },
+  {
+    "name": "dice-d20",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-d20.svg",
+    "tags": []
+  },
+  {
+    "name": "suitcase",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/suitcase.svg",
+    "tags": []
+  },
+  {
+    "name": "laugh-squint",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/laugh-squint.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-numeric-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-numeric-down.svg",
+    "tags": []
+  },
+  {
+    "name": "motorcycle",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/motorcycle.svg",
+    "tags": []
+  },
+  {
+    "name": "upload",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/upload.svg",
+    "tags": []
+  },
+  {
+    "name": "store-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/store-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "pause",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pause.svg",
+    "tags": []
+  },
+  {
+    "name": "forward",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/forward.svg",
+    "tags": []
+  },
+  {
+    "name": "icons",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/icons.svg",
+    "tags": []
+  },
+  {
+    "name": "dice-four",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-four.svg",
+    "tags": []
+  },
+  {
+    "name": "bookmark",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/bookmark.svg",
+    "tags": []
+  },
+  {
+    "name": "braille",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/braille.svg",
+    "tags": []
+  },
+  {
+    "name": "file-upload",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-upload.svg",
+    "tags": []
+  },
+  {
+    "name": "rocket",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/rocket.svg",
+    "tags": []
+  },
+  {
+    "name": "icicles",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/icicles.svg",
+    "tags": []
+  },
+  {
+    "name": "caret-square-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-square-up.svg",
+    "tags": []
+  },
+  {
+    "name": "blender-phone",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/blender-phone.svg",
+    "tags": []
+  },
+  {
+    "name": "asterisk",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/asterisk.svg",
+    "tags": []
+  },
+  {
+    "name": "user-check",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-check.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-pointer",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-pointer.svg",
+    "tags": []
+  },
+  {
+    "name": "cloud-sun-rain",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-sun-rain.svg",
+    "tags": []
+  },
+  {
+    "name": "rupee-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/rupee-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "sleigh",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sleigh.svg",
+    "tags": []
+  },
+  {
+    "name": "tablet",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/tablet.svg",
+    "tags": []
+  },
+  {
+    "name": "kiss",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/kiss.svg",
+    "tags": []
+  },
+  {
+    "name": "list-ol",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/list-ol.svg",
+    "tags": []
+  },
+  {
+    "name": "spell-check",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/spell-check.svg",
+    "tags": []
+  },
+  {
+    "name": "random",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/random.svg",
+    "tags": []
+  },
+  {
+    "name": "car-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/car-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "laptop-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/laptop-medical.svg",
+    "tags": []
+  },
+  {
+    "name": "ruble-sign",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ruble-sign.svg",
+    "tags": []
+  },
+  {
+    "name": "store-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/store-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-rock",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-rock.svg",
+    "tags": []
+  },
+  {
+    "name": "lock-open",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/lock-open.svg",
+    "tags": []
+  },
+  {
+    "name": "atom",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/atom.svg",
+    "tags": []
+  },
+  {
+    "name": "cat",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/cat.svg",
+    "tags": []
+  },
+  {
+    "name": "yin-yang",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/yin-yang.svg",
+    "tags": []
+  },
+  {
+    "name": "grin-stars",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-stars.svg",
+    "tags": []
+  },
+  {
+    "name": "ice-cream",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ice-cream.svg",
+    "tags": []
+  },
+  {
+    "name": "ring",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ring.svg",
+    "tags": []
+  },
+  {
+    "name": "poll",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/poll.svg",
+    "tags": ["action","graph"]
+  },
+  {
+    "name": "globe-africa",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/globe-africa.svg",
+    "tags": ["globe","country"]
+  },
+  {
+    "name": "parking",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/parking.svg",
+    "tags": []
+  },
+  {
+    "name": "snowplow",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/snowplow.svg",
+    "tags": []
+  },
+  {
+    "name": "backspace",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/backspace.svg",
+    "tags": []
+  },
+  {
+    "name": "angle-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-left.svg",
+    "tags": []
+  },
+  {
+    "name": "hdd",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hdd.svg",
+    "tags": []
+  },
+  {
+    "name": "sticky-note",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sticky-note.svg",
+    "tags": []
+  },
+  {
+    "name": "shopping-cart",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shopping-cart.svg",
+    "tags": []
+  },
+  {
+    "name": "parachute-box",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/parachute-box.svg",
+    "tags": []
+  },
+  {
+    "name": "spa",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/spa.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-down",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-down.svg",
+    "tags": []
+  },
+  {
+    "name": "calculator",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/calculator.svg",
+    "tags": []
+  },
+  {
+    "name": "window-restore",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/window-restore.svg",
+    "tags": []
+  },
+  {
+    "name": "user-slash",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-slash.svg",
+    "tags": []
+  },
+  {
+    "name": "vote-yea",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/vote-yea.svg",
+    "tags": []
+  },
+  {
+    "name": "shipping-fast",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shipping-fast.svg",
+    "tags": []
+  },
+  {
+    "name": "mouse",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mouse.svg",
+    "tags": []
+  },
+  {
+    "name": "screwdriver",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/screwdriver.svg",
+    "tags": []
+  },
+  {
+    "name": "female",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/female.svg",
+    "tags": []
+  },
+  {
+    "name": "money-bill-wave",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/money-bill-wave.svg",
+    "tags": []
+  },
+  {
+    "name": "hand-middle-finger",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-middle-finger.svg",
+    "tags": []
+  },
+  {
+    "name": "chess-bishop",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-bishop.svg",
+    "tags": []
+  },
+  {
+    "name": "shopping-basket",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/shopping-basket.svg",
+    "tags": []
+  },
+  {
+    "name": "dharmachakra",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/dharmachakra.svg",
+    "tags": []
+  },
+  {
+    "name": "charging-station",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/charging-station.svg",
+    "tags": []
+  },
+  {
+    "name": "building",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/building.svg",
+    "tags": []
+  },
+  {
+    "name": "binoculars",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/binoculars.svg",
+    "tags": []
+  },
+  {
+    "name": "angry",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/angry.svg",
+    "tags": []
+  },
+  {
+    "name": "genderless",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/genderless.svg",
+    "tags": []
+  },
+  {
+    "name": "quidditch",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/quidditch.svg",
+    "tags": []
+  },
+  {
+    "name": "history",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/history.svg",
+    "tags": []
+  },
+  {
+    "name": "gavel",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/gavel.svg",
+    "tags": []
+  },
+  {
+    "name": "torah",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/torah.svg",
+    "tags": []
+  },
+  {
+    "name": "folder",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/folder.svg",
+    "tags": []
+  },
+  {
+    "name": "arrows-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/arrows-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "drafting-compass",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/drafting-compass.svg",
+    "tags": []
+  },
+  {
+    "name": "assistive-listening-systems",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/assistive-listening-systems.svg",
+    "tags": []
+  },
+  {
+    "name": "pump-medical",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pump-medical.svg",
+    "tags": []
+  },
+  {
+    "name": "users",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/users.svg",
+    "tags": []
+  },
+  {
+    "name": "hands",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hands.svg",
+    "tags": []
+  },
+  {
+    "name": "fingerprint",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fingerprint.svg",
+    "tags": []
+  },
+  {
+    "name": "fill",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/fill.svg",
+    "tags": []
+  },
+  {
+    "name": "hanukiah",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/hanukiah.svg",
+    "tags": []
+  },
+  {
+    "name": "synagogue",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/synagogue.svg",
+    "tags": []
+  },
+  {
+    "name": "file-pdf",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/file-pdf.svg",
+    "tags": []
+  },
+  {
+    "name": "flushed",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/flushed.svg",
+    "tags": []
+  },
+  {
+    "name": "gamepad",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/gamepad.svg",
+    "tags": []
+  },
+  {
+    "name": "walking",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/walking.svg",
+    "tags": []
+  },
+  {
+    "name": "clipboard-check",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/clipboard-check.svg",
+    "tags": []
+  },
+  {
+    "name": "minus",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/minus.svg",
+    "tags": []
+  },
+  {
+    "name": "phone-square",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/phone-square.svg",
+    "tags": []
+  },
+  {
+    "name": "times",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/times.svg",
+    "tags": []
+  },
+  {
+    "name": "chevron-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-left.svg",
+    "tags": []
+  },
+  {
+    "name": "film",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/film.svg",
+    "tags": []
+  },
+  {
+    "name": "print",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/print.svg",
+    "tags": []
+  },
+  {
+    "name": "moon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/moon.svg",
+    "tags": []
+  },
+  {
+    "name": "stroopwafel",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/stroopwafel.svg",
+    "tags": []
+  },
+  {
+    "name": "pray",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pray.svg",
+    "tags": []
+  },
+  {
+    "name": "exclamation",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/exclamation.svg",
+    "tags": []
+  },
+  {
+    "name": "weight",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/weight.svg",
+    "tags": []
+  },
+  {
+    "name": "band-aid",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/band-aid.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-amount-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-amount-up.svg",
+    "tags": []
+  },
+  {
+    "name": "capsules",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/capsules.svg",
+    "tags": []
+  },
+  {
+    "name": "surprise",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/surprise.svg",
+    "tags": []
+  },
+  {
+    "name": "trash-restore-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/trash-restore-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "expand-alt",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/expand-alt.svg",
+    "tags": []
+  },
+  {
+    "name": "border-none",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/border-none.svg",
+    "tags": []
+  },
+  {
+    "name": "user-shield",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/user-shield.svg",
+    "tags": []
+  },
+  {
+    "name": "mouse-pointer",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/mouse-pointer.svg",
+    "tags": []
+  },
+  {
+    "name": "ribbon",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/ribbon.svg",
+    "tags": []
+  },
+  {
+    "name": "swatchbook",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/swatchbook.svg",
+    "tags": []
+  },
+  {
+    "name": "swimming-pool",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/swimming-pool.svg",
+    "tags": []
+  },
+  {
+    "name": "stamp",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/stamp.svg",
+    "tags": []
+  },
+  {
+    "name": "sort-up",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-up.svg",
+    "tags": []
+  },
+  {
+    "name": "align-left",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/align-left.svg",
+    "tags": []
+  },
+  {
+    "name": "temperature-low",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/temperature-low.svg",
+    "tags": []
+  },
+  {
+    "name": "pastafarianism",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/pastafarianism.svg",
+    "tags": []
+  },
+  {
+    "name": "heart",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/heart.svg",
+    "tags": []
+  },
+  {
+    "name": "font",
+    "path": "node_modules/@fortawesome/fontawesome-free/svgs/solid/font.svg",
+    "tags": []
+  }
+]
