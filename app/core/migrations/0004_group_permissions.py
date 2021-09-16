@@ -50,7 +50,7 @@ class Migration(migrations.Migration):
     initial = False
 
     dependencies = [
-        ('core', '0005_group_members'),
+        ('core', '0003_group_members'),
     ]
 
     operations = [

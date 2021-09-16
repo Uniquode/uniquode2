@@ -37,7 +37,7 @@ class Migration(migrations.Migration):
     initial = False
 
     dependencies = [
-        ('core', '0003_category_to_icon_name'),
+        ('core', '0001_initial'),
     ]
 
     operations = [

@@ -56,7 +56,7 @@ class Migration(migrations.Migration):
     initial = False
 
     dependencies = [
-        ('core', '0004_users_groups'),
+        ('core', '0002_users_groups'),
     ]
 
     operations = [
