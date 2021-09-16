@@ -26,12 +26,12 @@ SITE_ID = env.int('SITE_ID', 1)
 # Application definition
 
 DJANGO_APPS = [
-    'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
+    'django.contrib.auth',
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'django.contrib.sessions',
+    'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
 
@@ -49,7 +49,6 @@ THIRDPARTY_APPS = [
 CUSTOM_APPS = [
     'core.cachedmodel',
     'core',
-    #'modules.pages',
     #'modules.articles',
 ]
 INSTALLED_APPS = DJANGO_APPS + CUSTOM_APPS + THIRDPARTY_APPS
@@ -109,8 +108,9 @@ ASGI_APPLICATION = 'conf.asgi:application'
 
 DATABASE_MAP = {
     'default': ('DJANGO_DATABASE_URL', {}),
-    'readonly': ('DJANGO_DATABASE_RO_URL', {'readonly': True}),
-    'postgres': ('DJANGO_POSTGRES_URL', {}),
+    # define these as MIRRORS so test migrations does not try to create
+    'readonly': ('DJANGO_DATABASE_RO_URL', {'READONLY': True, 'TEST': {'MIRROR': 'default'}}),
+    'postgres': ('DJANGO_POSTGRES_URL', {'TEST': {'MIRROR': 'default'}}),
 }
 DATABASES = {
     name: env.database_url(var, options=opts)
