@@ -24,5 +24,6 @@ if settings.ADMIN_ENABLED:
     ]
 
 urlpatterns += [
-    path('', include('core.urls'))
+    path('', include('core.urls')),
+    path('flatpage/', include('django.contrib.flatpages.urls')),
 ]
