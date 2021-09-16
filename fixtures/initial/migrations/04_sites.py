@@ -2,7 +2,7 @@
 import csv
 
 from django.contrib.sites.models import Site
-from django.db import migrations
+from django.db import migrations, DatabaseError
 from django.db.backends.postgresql.schema import DatabaseSchemaEditor
 from django.db.migrations.state import StateApps
 
@@ -10,7 +10,11 @@ from django.db.migrations.state import StateApps
 # noinspection PyUnusedLocal
 def forwards(apps: StateApps, schema_editor: DatabaseSchemaEditor):
     # create a default site
-    Site.objects.get_or_create(pk=1, defaults={'domain': 'example.com', 'name': 'Default default site'})
+    default_site = {'domain': 'example.com', 'name': 'Default default site'}
+    try:
+        Site.objects.create(pk=1, **default_site)
+    except DatabaseError:
+        Site.objects.filter(pk=1).update(**default_site)
 
 
 # noinspection PyUnusedLocal
@@ -23,7 +27,9 @@ class Migration(migrations.Migration):
     initial = False
 
     dependencies = [
-        ('core', '0003_group_members'),
+        ('core', '03_group_permissions'),
+        ('sites', '0002_alter_domain_unique'),
+        ('flatpages', '0001_initial'),
     ]
 
     operations = [
