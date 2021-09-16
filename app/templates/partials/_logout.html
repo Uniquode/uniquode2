@@ -1,0 +1,12 @@
+    {% if request.user.is_staff %}
+    <a href="{% url 'admin:index' %}">
+      <button type="button" class="primary" title="Site Admin" aria-label="Site Admin">
+        <i class="fas fa-cogs"></i>
+      </button>
+    </a>
+    {% endif %}
+    <a href="{% url 'signout' %}?next={{ request.get_full_path }}">
+      <button type="button" class="primary" title="Sign Out" aria-label="Sign Out">
+        <i class="fas fa-sign-out-alt"></i>
+      </button>
+    </a>

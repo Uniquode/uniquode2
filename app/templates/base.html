@@ -1,0 +1,56 @@
+{% load static %}
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+{% block metas %}
+  {% block author %}
+  <meta name="author" content="David Nugent <davidn@uniquode.io>">
+  {% endblock author %}
+  {% block description %}
+  <meta name="description" content="Uniquode.IO">
+  {% endblock description %}
+{% endblock metas %}
+{% block favicon %}{% endblock favicon %}
+
+{% block page_title %}<title>No title set</title>{% endblock page_title %}
+
+{% block fonts %}{% endblock fonts %}
+{% block global_styles %}{% endblock global_styles %}
+{% block app_styles %}{% endblock app_styles %}
+{% block custom_app_styles %}{% endblock custom_app_styles %}
+</head>
+
+{% block body %}
+<body class="{% block body_class %}page{% endblock body_class %}"{% block body_attrs %}{% endblock body_attrs %}>
+{% block content-outer %}
+  {% block content-outer-start %}{% endblock content-outer-start %}
+
+  {% block navigation-top %}{% endblock navigation-top %}
+
+  {% block header %}{% endblock header %}
+
+  {% block navigation-left %}{% endblock navigation-left %}
+
+  {% block content-top %}{% endblock content-top %}
+  {% block content %}
+    {% block content-start %}{% endblock content-start %}
+      this space is intentially left blank
+    {% block content-end %}{% endblock content-end %}
+  {% endblock content %}
+  {% block content-bottom %}{% endblock content-bottom %}
+
+  {% block navigation-right %}{% endblock navigation-right %}
+
+  {% block footer %}{% endblock footer %}
+
+  {% block content-outer-end %}{% endblock content-outer-end %}
+
+{% endblock content-outer %}
+{% block global_scripts %}{% endblock global_scripts %}
+{% block scripts %}{% endblock scripts %}
+</body>
+{% endblock body %}
+</html>

@@ -1,0 +1,16 @@
+{% load static %}
+<header>
+  <span class="logo">
+    <img src="{% static 'site/images/uniquode.svg' %}" alt="Uniquode"/>
+    Uniquode
+  </span>
+{% if request.user.is_authenticated %}
+  <span class="sign-out">
+{% include 'partials/_logout.html' %}
+  </span>
+  {% else %}
+  <span class="sign-in">
+{% include 'partials/_login.html' %}
+  </span>
+{% endif %}
+</header>

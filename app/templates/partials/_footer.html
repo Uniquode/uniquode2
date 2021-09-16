@@ -1,0 +1,23 @@
+{% load static %}
+<footer>
+  <span class="powered-by">
+    <span>Powered by</span>
+  </span>
+  <span class="python-django">
+    <img src="{% static 'images/python-django.png' %}" alt="Python/Django"  width="auto" height="auto">
+  </span>
+  <span class="copyright">
+    <strong>Uniquode &copy; 2020, David L Nugent</strong>
+  </span>
+{% if request.user.is_authenticated and request.user.is_staff %}
+  <span class="page-edit">
+    <button type="button" class="seconary" title="Edit this page" aria-label="Edit Page">
+      {% if page.id %}
+      <a href="/admin/{{ view.sitetree }}/page/{{ page.id }}/change"><i class="fas fa-edit"></i></a>
+      {% else %}
+      <a href="/admin/{{ view.sitetree }}/page/add?label={{ request.path|cut:'/' }}"><i class="fas fa-edit"></i></a>
+      {% endif %}
+    </button>
+  </span>
+{% endif %}
+</footer>

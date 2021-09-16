@@ -1,0 +1,32 @@
+{% load static %}
+      <button type="button" class="primary" title="Sign In" aria-label="Log In">
+        <label for="modal-control"><i class="fas fa-user"></i></label>
+      </button>
+    <input type="checkbox" id="modal-control" class="modal"/>
+    <div role="dialog" aria-labelledby="dialog-title">
+      <div class="card login-card">
+        <label for="modal-control" class="modal-close"></label>
+        <form id="login-form" action="{% url 'signin' %}?next={{ request.get_full_path }}" method="post">
+          <fieldset class="textbox">
+            <legend>Log in</legend>
+            {% csrf_token %}
+
+            <p class="section">
+              <label for="username" class="label-above">Username or Email</label>
+              <input type="text" id="username" name="username" value=""
+                     autocomplete="username" placeholder="Username" required autofocus/>
+            </p>
+
+            <p class="section">
+              <label for="password" class="label-above">Password</label>
+              <input type="password" id="password" name="password" value=""
+                     autocomplete="current-password" placeholder="Password" required/>
+            </p>
+
+          </fieldset>
+          <div class="button-group">
+            <input type="submit" name="sign-in" class="button large primary" value="Sign In"/>
+          </div>
+        </form>
+      </div>
+    </div>

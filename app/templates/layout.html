@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load sitetree static %}
+
+{% block page_title %}
+<title>{% sitetree_page_title from view.sitetree %}</title>
+{% endblock page_title %}
+
+{% block description %}
+  <meta name="description" content="{% sitetree_page_description from view.sitetree %}">
+{% endblock description %}
+
+{% block body_class %}columns-2{% endblock %}
+
+{% block fonts %}
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+{% endblock fonts %}
+{% block extra_fonts %}{% endblock extra_fonts %}
+
+{% block global_styles %}
+  {% with '@fortawesome/'|add:FONTAWESOME|add:'/css/all.min.css' as fontawesome_css %}<link rel="stylesheet" href="{% static fontawesome_css %}" type="text/css">{% endwith %}
+  <link rel="stylesheet" href="{% static 'site/site.css' %}" type="text/css">
+  {{ block.super }}
+{% endblock global_styles %}
+
+{# heaader block - stop of page incl logo, followed by messages #}
+{% block header %}
+  {% include 'partials/_header.html' %}
+  {% block messages %}
+    {% if messages %}
+      <div class="row">
+        <div class="col-sm-12 col-md-offset-1 col-md-10">
+        {% for message in messages %}
+          <div class="alert {{ message.tags }}" role="alert">
+            {{ message }}
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endblock messages %}
+{% endblock header %}
+
+{% block content-outer-start %}
+<div class="container">
+{% endblock content-outer-start %}
+
+{# split page into 2 colums, navigation left, content right #}
+{% block navigation-left %}
+  <div class="row">
+    <div class="col-sm-12 col-md-2 column-left">
+    {% include 'partials/_navigation.html' %}
+    </div>
+    <div class="col-sm-12 col-md-9 column-right">
+      <div class="container">
+{% endblock navigation-left %}
+
+{# breadcrumbs #}
+{% block content-top %}
+    {% include 'partials/_breadcrumbs.html' %}
+{% endblock content-top %}
+
+{# close content container, content column and page row #}
+{% block navigation-right %}
+      </div>
+    </div>
+  </div>
+{% endblock navigation-right %}
+
+{% block content-outer-end %}
+</div>
+{% endblock content-outer-end %}
+
+{% block footer %}
+  {% include 'partials/_footer.html' %}
+{% endblock footer %}
+
+{% block scripts %}
+  {% with '@fortawesome/'|add:FONTAWESOME|add:'/js/all.js' as fontawesome_js %}<script defer src="{% static fontawesome_js %}" type="text/javascript"></script>{% endwith %}
+  <script defer src="{% static 'htmx.org/dist/htmx.js' %}" type="text/javascript"></script>
+  {{ block.super }}
+  {#  <script defer src="{% static 'core/js/site.js' %}" type="text/javascript"></script>#}
+{% endblock scripts %}
+

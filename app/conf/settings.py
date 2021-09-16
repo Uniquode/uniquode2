@@ -20,6 +20,9 @@ ALLOWED_HOSTS = env.get('DJANGO_ALLOWED_HOSTS', default=[])
 
 ADMIN_ENABLED = env.bool('DJANGO_ADMIN_ENABLED', default=True)
 
+# required for flatpages
+SITE_ID = env.int('SITE_ID', 1)
+
 # Application definition
 
 DJANGO_APPS = [
@@ -27,6 +30,8 @@ DJANGO_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
+    'django.contrib.flatpages',
     'django.contrib.staticfiles',
 ]
 
@@ -36,13 +41,13 @@ if ADMIN_ENABLED:
     DJANGO_APPS.insert(0, 'django.contrib.admin')
 
 THIRDPARTY_APPS = [
+    'rest_framework',
     'sitetree',
     'markdownx',
-    'simple_history',
     'taggit',
-    'rest_framework',
 ]
 CUSTOM_APPS = [
+    'core.cachedmodel',
     'core',
     #'modules.pages',
     #'modules.articles',
@@ -58,9 +63,9 @@ DJANGO_MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 ]
 THIRDPARTY_MIDDLEWARE = [
-    'simple_history.middleware.HistoryRequestMiddleware',
 ]
 CUSTOM_MIDDLEWARE = []
 EXTRA_MIDDLEWARE = [
@@ -83,7 +88,9 @@ if env.bool('DJANGO_TEMPLATE_CACHE', False):
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            DJANGO_ROOT / 'templates',
+        ],
         'OPTIONS': {
             'loaders': TEMPLATE_LOADERS,
             'context_processors': [
@@ -91,6 +98,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'core.context_processors.fontawesome',
             ],
         },
     },
@@ -105,7 +113,7 @@ DATABASE_MAP = {
     'postgres': ('DJANGO_POSTGRES_URL', {}),
 }
 DATABASES = {
-    name: env.database_url(var, **opts)
+    name: env.database_url(var, options=opts)
     for name, (var, opts) in DATABASE_MAP.items() if env.is_set(var)
 }
 DATABASE_ROUTERS = ['core.components.db_router.DBRouter']
@@ -147,29 +155,41 @@ USE_L10N = True
 USE_TZ = True
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
+# django-sass-compiler
+SCSS_ROOT = DJANGO_ROOT / 'scss'
+SCSS_COMPILE = ['**/*.scss']
+CSS_COMPILE_DIR = SCSS_ROOT
+CSS_STYLE = 'compressed'
+SCSS_INCLUDE_PATHS = [
+    PROJECT_ROOT / 'node_modules'
+]
+
 STATIC_URL = env.get('DJANGO_STATIC_URL', '/static/')
 STATICFILES_DIRS = [  # where (non-app_ static files are discovered
+    DJANGO_ROOT / 'static'
 ]
 STATICFILES_FINDERS = [
     'npm.finders.NpmFinder',                                    # node_modules
+    'django_sass_finder.finders.ScssFinder',                    # scss files
     'django.contrib.staticfiles.finders.FileSystemFinder',      # STATICFILES_DIRS
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',  # {app}/static
 ]
 STATIC_ROOT = str(PROJECT_ROOT / 'static')        # where static files are collected
 NPM_ROOT_PATH = str(PROJECT_ROOT)
+FONTAWESOME = 'fontawesome-pro'
+CORE_ICON_FONTSET = FONTAWESOME
 NPM_FILE_PATTERNS = {
     'mini.css': [
         'dist/*'
     ],
     '@fortawesome': [
-        'fontawesome-free/css/*.css',
-        'fontawesome-free/webfonts/*',
+        f'{FONTAWESOME}/css/*.css',
+        f'{FONTAWESOME}/webfonts/*',
     ],
     'htmx.org': [
         'dist/*'
     ]
 }
-CORE_ICON_FONTSET = 'fontawesome-pro'
 
 MEDIA_ROOT = str(PROJECT_ROOT / 'media')
 MEDIA_URL = env.get('DJANGO_MEDIA_URL', '/media/')
