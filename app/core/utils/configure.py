@@ -2,7 +2,6 @@
 """
 This module is for use of standalone scripts only
 """
-from pathlib import Path
 from django_env import Env
 import django
 
