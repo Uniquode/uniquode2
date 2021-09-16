@@ -8,29 +8,30 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.9"
 Django = "^3.2.7"
+djangorestframework = "^3.12.4"
 psycopg2-binary = "^2.9.1"
 django-redis = "^5.0.0"
-django-sitetree = "^1.17.0"
-django-sass = "^1.1.0"
 django-markdownx = "^3.0.1"
 Pygments = "^2.10.0"
 markdown-markup-emoji = "^0.2.2"
 mdx-emoticons = {git = "https://github.com/Uniquode/python-markdown-emoticons.git", rev = "master"}
-django-simple-history = "^3.0.0"
 django-taggit = "^1.5.1"
 django-taggit-anywhere = "^0.1.4"
 django-taggit-helpers = "^0.1.4"
 django-taggit-labels = "^0.7.0"
 django-taggit-templatetags = "^0.2.5"
 django-env = {git = "https://github.com/apnarm/django-env.git", rev = "main"}
-djangorestframework = "^3.12.4"
 django-npm = {git = "https://github.com/Uniquode/django-npm.git", rev = "master"}
+django-sitetree = {git = "https://github.com/Uniquode/django-sitetree.git"}
+django-sass-finder = {git = "https://github.com/Uniquode/django-sass-finder.git", rev = "master"}
+libsass = "^0.21.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
 pytest-pythonpath = "^0.7.3"
 pytest-django = "^4.4.0"
 pytest-dotenv = "^0.5.2"
+pytest-env = "^0.6.2"
 
 [tool.pytest.ini_options]
 minversion = "6.0"

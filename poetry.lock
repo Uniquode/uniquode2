@@ -116,32 +116,38 @@ Django = ">=2.2"
 redis = ">=3.0.0"
 
 [[package]]
-name = "django-sass"
-version = "1.1.0"
-description = "The absolute simplest way to use Sass with Django. Pure Python, minimal dependencies, and no special configuration required!"
+name = "django-sass-finder"
+version = "2.0.5"
+description = "A Django finder that compiles Sass files"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = "^3.7"
+develop = false
 
 [package.dependencies]
-django = "*"
-libsass = "*"
+Django = "^3.2"
+libsass = "^0.21"
 
-[[package]]
-name = "django-simple-history"
-version = "3.0.0"
-description = "Store model history and view/revert changes from admin site."
-category = "main"
-optional = false
-python-versions = ">=3.6"
+[package.source]
+type = "git"
+url = "https://github.com/Uniquode/django-sass-finder.git"
+reference = "master"
+resolved_reference = "e629ac2f2a8afddad12208d2a6f1ce347ebd7f4f"
 
 [[package]]
 name = "django-sitetree"
-version = "1.17.0"
+version = "1.17.2"
 description = "This reusable Django app introduces site tree, menu and breadcrumbs navigation elements"
 category = "main"
 optional = false
 python-versions = "*"
+develop = false
+
+[package.source]
+type = "git"
+url = "https://github.com/Uniquode/django-sitetree.git"
+reference = "master"
+resolved_reference = "88d973b8f35f4106adc91d2f1f1d37a8afdf408a"
 
 [[package]]
 name = "django-taggit"
@@ -391,6 +397,17 @@ pytest = ">=5.0.0"
 python-dotenv = ">=0.9.1"
 
 [[package]]
+name = "pytest-env"
+version = "0.6.2"
+description = "py.test plugin that allows you to add environment variables."
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pytest = ">=2.6.0"
+
+[[package]]
 name = "pytest-pythonpath"
 version = "0.7.3"
 description = "pytest plugin for adding to the PYTHONPATH from command line or configs."
@@ -473,7 +490,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "261a2288d346379d2ab891240fdb6cc999df989b16fff0a0612be56b19db1401"
+content-hash = "1cc38902cf1152a46a22a3578cadd55856edcee75b7221953daf28f9b5302f43"
 
 [metadata.files]
 asgiref = [
@@ -506,18 +523,8 @@ django-redis = [
     {file = "django-redis-5.0.0.tar.gz", hash = "sha256:048f665bbe27f8ff2edebae6aa9c534ab137f1e8fa7234147ef470df3f3aa9b8"},
     {file = "django_redis-5.0.0-py3-none-any.whl", hash = "sha256:97739ca9de3f964c51412d1d7d8aecdfd86737bb197fce6e1ff12620c63c97ee"},
 ]
-django-sass = [
-    {file = "django-sass-1.1.0.tar.gz", hash = "sha256:da163cd7ad7b9c2f1f10f2ec8b76939640d5b32d21ee74a240ca50a059c5fe7a"},
-    {file = "django_sass-1.1.0-py3-none-any.whl", hash = "sha256:992f39d97a7b2d7d891255e5f99512ffd616b2e0aae1ca9b76983c5ecd603342"},
-]
-django-simple-history = [
-    {file = "django-simple-history-3.0.0.tar.gz", hash = "sha256:66fe76c560054be393c52b1799661e104fbe372918d37d151e5d41c676158118"},
-    {file = "django_simple_history-3.0.0-py2.py3-none-any.whl", hash = "sha256:a312adfe8fbec4c450b08e641b11249a8a589a7e7d1ba2404764b8b5bed53552"},
-]
-django-sitetree = [
-    {file = "django-sitetree-1.17.0.tar.gz", hash = "sha256:7c3fe6453f1bb903d5a2d515b0913176311085618b84094c2f06ff5b89c99a5f"},
-    {file = "django_sitetree-1.17.0-py2.py3-none-any.whl", hash = "sha256:f31ae0f0bcf3e4ebe62ca274cd63f6a28e9e68b184bba5285d2bd4be250978c7"},
-]
+django-sass-finder = []
+django-sitetree = []
 django-taggit = [
     {file = "django-taggit-1.5.1.tar.gz", hash = "sha256:e5bb62891f458d55332e36a32e19c08d20142c43f74bc5656c803f8af25c084a"},
     {file = "django_taggit-1.5.1-py3-none-any.whl", hash = "sha256:dfe9e9c10b5929132041de0c00093ef0072c73c2a97d0f74a818ae50fa77149a"},
@@ -687,6 +694,9 @@ pytest-django = [
 pytest-dotenv = [
     {file = "pytest-dotenv-0.5.2.tar.gz", hash = "sha256:2dc6c3ac6d8764c71c6d2804e902d0ff810fa19692e95fe138aefc9b1aa73732"},
     {file = "pytest_dotenv-0.5.2-py3-none-any.whl", hash = "sha256:40a2cece120a213898afaa5407673f6bd924b1fa7eafce6bda0e8abffe2f710f"},
+]
+pytest-env = [
+    {file = "pytest-env-0.6.2.tar.gz", hash = "sha256:7e94956aef7f2764f3c147d216ce066bf6c42948bb9e293169b1b1c880a580c2"},
 ]
 pytest-pythonpath = [
     {file = "pytest-pythonpath-0.7.3.tar.gz", hash = "sha256:63fc546ace7d2c845c1ee289e8f7a6362c2b6bae497d10c716e58e253e801d62"},
