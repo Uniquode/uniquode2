@@ -5,6 +5,7 @@ import pytest
 from django.urls import reverse
 
 
+@pytest.mark.django_db
 def test_admin_page(client, settings):
     if not settings.ADMIN_ENABLED:
         pytest.skip('Django admin is disabled')
@@ -14,6 +15,7 @@ def test_admin_page(client, settings):
         assert response.status_code == int(status.OK)
 
 
+@pytest.mark.django_db
 def test_ping(client):
     response = client.get(reverse('ping'), follow=True)
     assert response.status_code == int(status.OK)

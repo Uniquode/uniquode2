@@ -14,8 +14,6 @@ def test_model_icon():
     assert str(icon) == 'one'
     assert repr(icon) == '<Icon: one>'
     assert icon.svg == ''
-    assert icon.dt_created
-    assert icon.dt_modified
 
 
 @pytest.mark.django_db
@@ -26,8 +24,6 @@ def test_model_category():
     assert category.icon.name == 'one'
     assert str(category) == 'one'
     assert repr(category) == '<Category: one>'
-    assert category.dt_created
-    assert category.dt_modified
 
 
 @pytest.mark.django_db
