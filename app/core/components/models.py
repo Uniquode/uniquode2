@@ -7,9 +7,9 @@ from django.contrib.auth import get_user_model
 from django.db import models
 
 __all__ = (
-    'TimestampModel',
-    'AuthorModel',
-    'ActivatedModel',
+    'TimestampModelMixin',
+    'AuthorModelMixin',
+    'ActivatedModelMixin',
     'get_sentinel_user'
 )
 
@@ -20,7 +20,7 @@ def get_sentinel_user():
     return get_user_model().objects.get_or_create(username='deleted')[0]
 
 
-class TimestampModel(models.Model):
+class TimestampModelMixin(models.Model):
     """
     Abstract model with auto-timestamps
     """
@@ -31,7 +31,7 @@ class TimestampModel(models.Model):
         abstract = True
 
 
-class AuthorModel(models.Model):
+class AuthorModelMixin(models.Model):
     created_by = models.ForeignKey(get_user_model(), editable=False, blank=True, null=True, related_name='+',
                                    on_delete=models.SET(get_sentinel_user))
 
@@ -39,7 +39,7 @@ class AuthorModel(models.Model):
         abstract = True
 
 
-class ActivatedModel(models.Model):
+class ActivatedModelMixin(models.Model):
     is_active = models.BooleanField(default=False)
 
     def activate(self, state: bool = True, save: bool = True):
