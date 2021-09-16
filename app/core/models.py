@@ -2,20 +2,16 @@
 from django.contrib.auth import get_user_model
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from simple_history import register as history_register, models as history_models
 from taggit.managers import TaggableManager
 
-from .components.models import TimestampModel, AuthorModel
+from .cachedmodel.models import CachedModel
+from .components.models import TimestampModelMixin, AuthorModelMixin
 
 UserModel = get_user_model()
 
 
-# register history on our user table here
-history_register(UserModel, app='core')
-
-
 # some of the primitive model blocks
-class Message(TimestampModel, AuthorModel):
+class Message(CachedModel, TimestampModelMixin, AuthorModelMixin):
     to = models.ForeignKey(UserModel, blank=True, null=True, related_name='+',
                            on_delete=models.SET_NULL)
     name = models.CharField(_('Name'), max_length=64, blank=True, null=True)
@@ -34,7 +30,7 @@ class Message(TimestampModel, AuthorModel):
         return ' '.join(bits)
 
 
-class Icon(TimestampModel):
+class Icon(CachedModel):
     name = models.CharField(_('Icon Name'), max_length=64, blank=False, null=False, unique=True)
     svg = models.TextField(_('SVG'))
     tags = TaggableManager(_('Tags'))
@@ -46,11 +42,10 @@ class Icon(TimestampModel):
         ordering = ['name']
 
 
-class Category(TimestampModel):
+class Category(CachedModel):
     name = models.CharField(_('Category Name'), max_length=64, blank=False, null=False)
     icon = models.ForeignKey(Icon, to_field='name', null=True, related_name='+',
                              on_delete=models.SET_NULL)
-    history = history_models.HistoricalRecords(_('History'))
     tags = TaggableManager(_('Tags'))
 
     def __str__(self):
