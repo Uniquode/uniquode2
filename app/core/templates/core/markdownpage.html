@@ -1,0 +1,31 @@
+{% extends 'core/layout.html' %}
+{% load md static %}
+
+{% block app_styles %}
+  <link rel="stylesheet" href="{% static 'css/codehilite.css' %}" type="text/css">
+{% endblock app_styles %}
+
+{% block content %}
+  {% if page %}{% with page as p %}
+    <div class="row">
+      <div class="col md-content">
+        {{ p.content | markdown | safe }}
+      </div>
+    </div>
+    <div class="row meta-info">
+      <div class="col-sm-12 meta-author flex-end">
+        <p>Author: <strong>{{ p.created_by.first_name }} {{ p.created_by.last_name }}</strong></p>
+        <p><small>
+          Created: <em>{{ p.dt_created|timesince }} ago</em>{% if p.dt_created.hour != p.dt_modified.hour or p.dt_created.day != p.dt_modified.day or p.dt_created.month != p.dt_modified.month or p.dt_created.year != p.dt_modified.year %},
+          Edited: <em>{{ p.dt_modified|timesince }} ago</em></small></p>{% endif %}
+      </div>
+    </div>
+    {% if view.commento %}
+      <script defer src="https://cdn.commento.io/js/commento.js"></script>
+      <hr><h4><i class="fas fa-comments"></i> Comments</h4>
+      <div class="col-sm-12" id="commento">
+      </div>
+      <div ></div>
+    {% endif %}
+  {% endwith %}{% endif %}
+{% endblock content %}

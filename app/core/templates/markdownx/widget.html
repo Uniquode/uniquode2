@@ -1,0 +1,43 @@
+<!--suppress CssUnusedSymbol -->
+<style type="text/css">
+.markdownx {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: stretch;
+}
+.markdownx-preview, .markdownx-editor {
+  width: calc(100vw - 450px) !important;
+  border: #1b1e21 solid 1px;
+  padding: 10px;
+}
+.markdownx-editor {
+  width: calc(100vw - 450px) !important;
+  min-height: 60vh;
+  padding: 10px;
+}
+
+textarea.markdownx-editor {
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1680px) {
+.markdownx {
+    flex-direction: row;
+}
+.markdownx-preview, .markdownx-editor {
+    width: calc((100vw - 450px) / 2) !important;
+}
+.markdownx-editor {
+    margin-right: 10px;
+}
+}
+
+</style>
+<div class="markdownx">
+  {% include 'django/forms/widgets/textarea.html' %}
+  <div class="markdownx-preview"></div>
+</div>

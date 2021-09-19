@@ -1,0 +1,18 @@
+{% extends 'core/layout.html' %}
+{% load static md %}
+
+{% block content %}
+  {% if page %}{% with page as p %}
+    <div class="row">
+      <div class="col md-content">
+        {{ p.content | markdown | safe }}
+      </div>
+    </div>
+    {% if view.commento %}
+      <script defer src="https://cdn.commento.io/js/commento.js"></script>
+      <h4><i class="fas fa-comments"></i> Comments</h4>
+      <div class="col-sm-12" id="commento"></div>
+    {% endif %}
+  {% endwith %}{% endif %}
+  {% include 'partials/_contact.html' %}
+{% endblock content %}
