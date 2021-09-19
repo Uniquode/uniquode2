@@ -3,10 +3,10 @@ from django.conf import settings
 
 if settings.ADMIN_ENABLED:
     from django.contrib import admin
-    from django.utils.safestring import mark_safe, SafeString
 
-    from .components.admin import TaggedAdminMixin, TimestampAdminMixin, CreatedByAdminMixin
-    from .models import Icon, Category, Message
+    from components.admin import TimestampAdminMixin, CreatedByAdminMixin
+    from markdownx.admin import MarkdownxModelAdmin
+    from .models import Message, Page
 
     class ModelAdminMixin:
 
@@ -14,26 +14,6 @@ if settings.ADMIN_ENABLED:
             css = {
                 'all': ('css/site/site-admin.css',)
             }
-
-    class CategoryAdmin(ModelAdminMixin, admin.ModelAdmin):
-        search_fields = ('name',)
-
-    admin.site.register(Category, CategoryAdmin)
-
-    # noinspection PyMethodMayBeStatic
-    class IconAdmin(ModelAdminMixin, admin.ModelAdmin, TaggedAdminMixin):
-        list_display = ('_svg', 'name', '_tags')
-        search_fields = ('name', 'tags__name', )
-        list_filter = ('tags__name',)
-
-        @mark_safe
-        def _svg(self, obj) -> SafeString:
-            return obj.svg
-
-        class Meta:
-            ordering = ['name']
-
-    admin.site.register(Icon, IconAdmin)
 
     # noinspection PyMethodMayBeStatic
     class MessagesAdmin(CreatedByAdminMixin, TimestampAdminMixin, admin.ModelAdmin):
@@ -67,3 +47,19 @@ if settings.ADMIN_ENABLED:
             return f'{obj.created_by.email}' if obj.created_by else obj.email
 
     admin.site.register(Message, MessagesAdmin)
+
+
+    class PageAdmin(CreatedByAdminMixin, TimestampAdminMixin, MarkdownxModelAdmin):
+        list_display = ('label', 'since_created', 'since_modified')
+        actions = None
+        fieldsets = [
+            (None, {
+                'fields': [
+                    ('label', 'content')
+                ]
+            }),
+        ]
+        readonly_fields = ('dt_created', 'dt_modified')
+
+
+    admin.site.register(Page, PageAdmin)

@@ -9,10 +9,8 @@ from django.db.migrations.state import StateApps
 def forwards(apps: StateApps, schema_editor: DatabaseSchemaEditor):
     # create a default site
     default_site = {'domain': 'example.com', 'name': 'Default default site'}
-    try:
+    if not Site.objects.filter(pk=1).exists():
         Site.objects.create(pk=1, **default_site)
-    except DatabaseError:
-        Site.objects.filter(pk=1).update(**default_site)
 
 
 # noinspection PyUnusedLocal

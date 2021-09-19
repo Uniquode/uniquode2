@@ -1,0 +1,48 @@
+{% load static %}
+
+{# Required html to activate this or similar - embed in markdown #}
+{#  <button type="button" class="primary" title="Contact Form" aria-label="Contact Form">#}
+{#    <label for="modal-control-contact"><i class="fas fa-envelope-open-text"></i></label>#}
+{#  </button>#}
+{#  <sub>Click for contact form</sub>#}
+
+    <input type="checkbox" id="modal-control-contact" class="modal"/>
+    <div role="dialog" aria-labelledby="dialog-title">
+      <div class="card contact-card">
+        <label for="modal-control-contact" class="modal-close"></label>
+        <form id="contact-form" method="post">
+          <fieldset class="textbox">
+            <legend>Contact Me</legend>
+            {% csrf_token %}
+
+            <p class="section">
+              <label for="contact_name" class="label-above">Your Name</label>
+              <input type="text" id="contact_name" name="contact_name" autocomplete="on" placeholder="Firstname Lastname"
+                     value="{% if request.user.is_authenticated %}{{ request.user.first_name }} {{ request.user.last_name }}{% endif %}"
+                     required />
+            </p>
+
+            <p class="section">
+              <label for="contact_email" class="label-above">Your Email <small>(optional)</small></label>
+              <input type="email" id="contact_email" name="contact_email" autocomplete="on" placeholder="your@email"
+                     value="{% if request.user.is_authenticated %}{{ request.user.email }}{% endif %}"/>
+            </p>
+
+            <p class="section">
+              <label for="contact_topic" class="label-above">Topic or Summary</label>
+              <input type="text" id="contact_topic" name="contact_topic" placeholder="a brief summary of your message"
+                     value="" required />
+            </p>
+
+            <p class="section">
+              <label for="contact_message" class="label-above">Message</label>
+              <textarea id="contact_message" name="contact_message" placeholder="Your message" required></textarea>
+            </p>
+          </fieldset>
+
+          <div class="button-group">
+            <input type="submit" name="send" class="button large primary" value="Send"/>
+          </div>
+        </form>
+      </div>
+    </div>

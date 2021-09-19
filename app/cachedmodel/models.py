@@ -5,12 +5,17 @@ from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.db.models.base import ModelBase
 from django.db.models.fields import related_descriptors
-from django.db.models.signals import pre_delete, post_delete, post_save, m2m_changed
+from django.db.models.signals import (
+    pre_delete,
+    post_delete,
+    post_save,
+    m2m_changed
+)
 
-from . import signals
-from .lib.lazymodel import get_model_cache, model_cache_key
-from .lib.modelutils import get_identifier_string, lookup_cache_master_key
 from .manager import RowCacheManager
+from .signals import removed_from_cache
+from .utils.lazymodel import get_model_cache, model_cache_key
+from .utils.modelutils import get_identifier_string, lookup_cache_master_key
 
 DEFAULT_MANAGER_NAME = 'objects'
 BASE_MANAGER_NAME = '_related'
@@ -124,7 +129,7 @@ def remove_object_from_cache(sender, instance, **kwargs):
         cache.delete(master_key)
 
     # Tell anyone else who may be interested that cache was cleaned of instance
-    signals.removed_from_cache.send(sender=sender, instance=instance, **kwargs)
+    removed_from_cache.send(sender=sender, instance=instance, **kwargs)
 
 
 pre_delete.connect(remove_object_from_cache)
@@ -134,3 +139,45 @@ m2m_changed.connect(remove_object_from_cache)
 
 related_descriptors.create_forward_many_to_many_manager = create_forward_many_to_many_manager
 related_descriptors.create_reverse_many_to_one_manager = create_reverse_many_to_one_manager
+
+
+class CachedModelTypes(CachedModel):
+    """
+    List of cached models
+    This is not actively used by this unit but provides a useful table for tests
+
+    """
+    app_label = models.CharField(max_length=100)
+    model = models.CharField(max_length=100)
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+
+    @classmethod
+    def populate(cls):
+        from django.apps import apps
+        created_counter = 0
+
+        for content_type in ContentType.objects.all():
+            try:
+                model = apps.get_model(app_label=content_type.app_label, model_name=content_type.model, require_ready=True)
+            except LookupError:
+                continue
+            if issubclass(model, CachedModel):
+                _, created = cls.objects.get_or_create(
+                    app_label=content_type.app_label,
+                    model=content_type.model,
+                    content_type=content_type)
+                if created:
+                    created_counter += 1
+        return created_counter
+
+    @classmethod
+    def reset(cls):
+        ContentType.objects.all().delete()
+        cls.populate()
+
+    def __str__(self):
+        return f'{self.app_label}.{self.model} (id={self.id})'
+
+    class Meta:
+        unique_together = ('app_label', 'model')
+        ordering = ('app_label', 'model')

@@ -2,8 +2,8 @@
 from django.db import models
 from django.utils.functional import empty
 
-from .lib.lazymodel import model_cache_key, OBJECT_DOES_NOT_EXIST, get_model_cache
-from .lib.modelutils import (
+from .utils.lazymodel import model_cache_key, OBJECT_DOES_NOT_EXIST, get_model_cache
+from .utils.modelutils import (
     lookup_cache_key,
     model_cache_deleted_cache_key,
     model_row_cache_enabled,

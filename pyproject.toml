@@ -25,6 +25,7 @@ django-npm = {git = "https://github.com/Uniquode/django-npm.git", rev = "master"
 django-sitetree = {git = "https://github.com/Uniquode/django-sitetree.git"}
 django-sass-finder = {git = "https://github.com/Uniquode/django-sass-finder.git", rev = "master"}
 libsass = "^0.21.0"
+PyYAML = "^5.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"

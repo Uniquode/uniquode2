@@ -51,7 +51,7 @@ def attach_tags(stats):
     from core.utils.fixtures import initial_fixture_file
     from django.utils.text import slugify
     from taggit.models import Tag
-    from core.models import Icon
+    from media.models import Icon
 
     import json
 
@@ -87,7 +87,7 @@ def main(args: argparse.Namespace):
     stats = defaultdict(int)
 
     if args.action == 'clear':
-        from core.models import Icon
+        from media.models import Icon
         from django.contrib.contenttypes.models import ContentType
         from taggit.models import TaggedItem
 
@@ -97,7 +97,7 @@ def main(args: argparse.Namespace):
         Icon.objects.all().delete()
 
     elif args.action == 'import':
-        from core.models import Icon
+        from media.models import Icon
 
         for label in LABELS.keys():
             stats[label] = 0

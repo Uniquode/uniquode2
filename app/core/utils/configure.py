@@ -10,6 +10,6 @@ def configure_settings(env=None):
     if env is None:
         env = Env(readenv=True, parents=True)
 
-    env.setdefault('DJANGO_SETTINGS_MODULE', 'conf.settings')
+    env.setdefault('DJANGO_SETTINGS_MODULE', 'conf')
 
     django.setup()
