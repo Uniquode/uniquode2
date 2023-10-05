@@ -12,7 +12,7 @@ djangorestframework = "^3.12.4"
 psycopg2-binary = "^2.9.1"
 django-redis = "^5.0.0"
 django-markdownx = "^3.0.1"
-Pygments = "^2.10.0"
+Pygments = "^2.15.0"
 markdown-markup-emoji = "^0.2.2"
 mdx-emoticons = {git = "https://github.com/Uniquode/python-markdown-emoticons.git", rev = "master"}
 django-taggit = "^1.5.1"
